@@ -15,7 +15,7 @@ C:/Users/Дима/Documents/GitHub/DDfut
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55383
+56216
 Successfully changed project path to: C:/Users/Дима/Documents/GitHub/DDfut
 C:/Users/Дима/Documents/GitHub/DDfut
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Дима/Documents/GitHub/DDfut
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2104] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 1227060210 [EditorId] 1227060210 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D8CQGBP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8156] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 2418300866 [EditorId] 2418300866 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D8CQGBP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2104] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 1227060210 [EditorId] 1227060210 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D8CQGBP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8156] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 2418300866 [EditorId] 2418300866 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D8CQGBP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 9.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.1f1 (4fead5835099)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56732
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009142 seconds.
+Registered in 0.008730 seconds.
 - Loaded All Assemblies, in  0.516 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.498 seconds
+- Finished resetting the current domain, in  0.483 seconds
 Domain Reload Profiling:
-	ReloadAssembly (300ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (304ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (105ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (206ms)
-				TypeCache.Initialize (205ms)
-					TypeCache.ScanAssembly (202ms)
+			SetupTypeCache (204ms)
+				TypeCache.Initialize (203ms)
+					TypeCache.ScanAssembly (200ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (397ms)
+			SetupLoadedEditorAssemblies (383ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (12ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (243ms)
-				ProcessInitializeOnLoadMethodAttributes (124ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (87ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,48 +111,48 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Дима\Documents\GitHub\DDfut\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Дима\Documents\GitHub\DDfut\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.191 seconds
-Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.226 seconds
+Refreshing native plugins compatible for Editor in 4.31 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.886 seconds
+- Finished resetting the current domain, in  0.872 seconds
 Domain Reload Profiling:
-	ReloadAssembly (351ms)
-		BeginReloadAssembly (200ms)
+	ReloadAssembly (337ms)
+		BeginReloadAssembly (184ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		LoadAllAssembliesAndSetupDomain (837ms)
-			LoadAssemblies (134ms)
+			CreateAndSetChildDomain (34ms)
+		LoadAllAssembliesAndSetupDomain (886ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (797ms)
-				TypeCache.Initialize (467ms)
-					TypeCache.ScanAssembly (459ms)
+			SetupTypeCache (844ms)
+				TypeCache.Initialize (496ms)
+					TypeCache.ScanAssembly (489ms)
 				ResolveRequiredComponents (8ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (603ms)
+			SetupLoadedEditorAssemblies (610ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (14ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (13ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (421ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (430ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (10ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3465 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 26 unused Assets / (68.0 KB). Loaded Objects now: 3927.
 Memory consumption went from 0.53 GB to 0.53 GB.
-Total: 5.424400 ms (FindLiveObjects: 0.434600 ms CreateObjectMapping: 0.610800 ms MarkObjects: 4.118100 ms  DeleteObjects: 0.259100 ms)
+Total: 5.552200 ms (FindLiveObjects: 0.417800 ms CreateObjectMapping: 0.617100 ms MarkObjects: 4.375200 ms  DeleteObjects: 0.140300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -167,137 +167,353 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5849.477246 seconds.
-  path: Assets/PACKStext.blend
-  artifactKey: Guid(14530340b01a3e84ab2295ddb9dd1666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/PACKStext.blend using Guid(14530340b01a3e84ab2295ddb9dd1666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bf0d7e0c3cb0801240a0d4c9cd6e34') in 0.270691 seconds 
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 36.365871 seconds.
-  path: Assets/PACKStext.blend
-  artifactKey: Guid(14530340b01a3e84ab2295ddb9dd1666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/PACKStext.blend using Guid(14530340b01a3e84ab2295ddb9dd1666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b672192bde62217ebf12fa45f32edb') in 0.165548 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 1.678032 seconds.
-  path: Assets/PACKStext.blend1
-  artifactKey: Guid(01fb13120a70b8445a87fce50bc554f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/PACKStext.blend1 using Guid(01fb13120a70b8445a87fce50bc554f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec7e482536338373631edee761693be') in 0.004690 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 123.061606 seconds.
-  path: Assets/2text.blend
-  artifactKey: Guid(4139777dd416814428d99e653c8c19db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2text.blend using Guid(4139777dd416814428d99e653c8c19db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11ce61e510f4d8078d7ee6a3eb9479cf') in 0.067815 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/DDtext.blend
-  artifactKey: Guid(211617c2e9024f5458166381de94ef24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/DDtext.blend using Guid(211617c2e9024f5458166381de94ef24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9eb9a8a7a6c688a394b39a17f089f5') in 0.026961 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/FUTtext.blend
-  artifactKey: Guid(7c50066a5477f6746b219cf2834f020d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FUTtext.blend using Guid(7c50066a5477f6746b219cf2834f020d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd0b5ca47f1b9ad5d50a66ffbd5201a') in 0.138413 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/flagSTANDART.blend
-  artifactKey: Guid(297f597874fff754d96e454eaa7ae04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/flagSTANDART.blend using Guid(297f597874fff754d96e454eaa7ae04b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5534062d2cb5356d5397dc3d3220bdde') in 0.231348 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/3text.blend
-  artifactKey: Guid(62d2c3ac666b39e4d802f8d63d567987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/3text.blend using Guid(62d2c3ac666b39e4d802f8d63d567987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c4c0dacf019d1fae7bfa5da3f9f45a') in 0.045896 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/flagMINI.blend
-  artifactKey: Guid(09e1a8e456b44964390fe0a506cebab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/flagMINI.blend using Guid(09e1a8e456b44964390fe0a506cebab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9180d43acf913cdf43370f60e420505a') in 0.069630 seconds 
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.978561 seconds.
-  path: Assets/2text.blend1
-  artifactKey: Guid(956eb09b2903904468525b5b15a0c978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/2text.blend1 using Guid(956eb09b2903904468525b5b15a0c978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42f51b2ae4e6fed98b40924aa5fd217') in 0.002376 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 4.176614 seconds.
-  path: Assets/3text.blend1
-  artifactKey: Guid(2d297fad20be9fb4eb8179b2871fc095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/3text.blend1 using Guid(2d297fad20be9fb4eb8179b2871fc095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333329b2cb5eebdee512daf56d8936cd') in 0.002035 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.027215 seconds.
-  path: Assets/DDtext.blend1
-  artifactKey: Guid(5018dd48f49a4c940b56fd13bd33b766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/DDtext.blend1 using Guid(5018dd48f49a4c940b56fd13bd33b766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800c3f2c289dcb9cb76f158a25f0f91a') in 0.002108 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.369619 seconds.
-  path: Assets/flagMINI.blend1
-  artifactKey: Guid(c86a56eb91f54aa488045d70deac1079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/flagMINI.blend1 using Guid(c86a56eb91f54aa488045d70deac1079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645d53d5855d4231d734c2b98ae82f64') in 0.002049 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.426619 seconds.
-  path: Assets/flagSTANDART.blend1
-  artifactKey: Guid(8062aa121bba01648b885b90ff8cc4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/flagSTANDART.blend1 using Guid(8062aa121bba01648b885b90ff8cc4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66ccfcd08f1a59a109406ab2b6babc81') in 0.002135 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.107472 seconds.
-  path: Assets/FUTtext.blend1
-  artifactKey: Guid(f32072b9622093345bf12e883c278e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/FUTtext.blend1 using Guid(f32072b9622093345bf12e883c278e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f8345db1a76e218754e2e42e8c5669') in 0.002099 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 113.237740 seconds.
+  Time since last request: 9899.504661 seconds.
   path: Assets/Scenes/Menu.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Menu.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ff78a52d63496e53278773d22c3e62') in 0.001764 seconds 
+Start importing Assets/Scenes/Menu.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1508a345a9180e1d1f073d5964342a') in 0.004286 seconds 
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1463.277336 seconds.
-  path: Assets/Scenes/Menu.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 745.722826 seconds.
+  path: Assets/BACKtext.blend
+  artifactKey: Guid(315273bda1ab01c4b8bcbc244e507d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Menu.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24873b45f5470090e83263ff7f26908f') in 0.002198 seconds 
+Start importing Assets/BACKtext.blend using Guid(315273bda1ab01c4b8bcbc244e507d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308eedf0ecaadf124e6f0fe39d2d0250') in 0.264421 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 187.975611 seconds.
+  path: Assets/FREEtext.blend
+  artifactKey: Guid(af2e01bd77b021644bb883625fc48313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FREEtext.blend using Guid(af2e01bd77b021644bb883625fc48313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb854bf670723a96b4a95693894d14bd') in 0.049752 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PACKtext.blend
+  artifactKey: Guid(756dedcee835dea449088d9051f11368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PACKtext.blend using Guid(756dedcee835dea449088d9051f11368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab791b623797fd382016b4d0a117749') in 0.089314 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 119.425003 seconds.
+  path: Assets/MYtext.blend
+  artifactKey: Guid(b605f48992dca1849a9cc04f5b63e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYtext.blend using Guid(b605f48992dca1849a9cc04f5b63e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220a4ffb1f74fe05e63b20c3ffd72309') in 0.028694 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/STOREtext.blend
+  artifactKey: Guid(d774dd198af250b4a970848170808069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/STOREtext.blend using Guid(d774dd198af250b4a970848170808069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667f35fc9e9d2b782d9b58498dcd7ee6') in 0.080430 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 216.909890 seconds.
+  path: Assets/STOREtext.blend
+  artifactKey: Guid(d774dd198af250b4a970848170808069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/STOREtext.blend using Guid(d774dd198af250b4a970848170808069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27f8a60d1c7e6b422ed52c526ada295') in 0.060408 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 243.712334 seconds.
+  path: Assets/2text.blend
+  artifactKey: Guid(4139777dd416814428d99e653c8c19db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/2text.blend using Guid(4139777dd416814428d99e653c8c19db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7850f7c182dbcc79eb0171f76c16069b') in 0.061590 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DDtext.blend
+  artifactKey: Guid(211617c2e9024f5458166381de94ef24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DDtext.blend using Guid(211617c2e9024f5458166381de94ef24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df65d3d6167294dfbbd45f1b18ca2c2') in 0.066845 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FUTtext.blend
+  artifactKey: Guid(7c50066a5477f6746b219cf2834f020d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FUTtext.blend using Guid(7c50066a5477f6746b219cf2834f020d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac617fa642f1215b7095524b5dbae46') in 0.066680 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BACKtext.blend
+  artifactKey: Guid(315273bda1ab01c4b8bcbc244e507d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BACKtext.blend using Guid(315273bda1ab01c4b8bcbc244e507d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bc0ca7ad851fc31963b7d374760f81') in 0.040552 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PACKStext.blend
+  artifactKey: Guid(14530340b01a3e84ab2295ddb9dd1666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PACKStext.blend using Guid(14530340b01a3e84ab2295ddb9dd1666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1cb354b64c68c98d1c0d2645a0a94e7') in 0.063372 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3text.blend
+  artifactKey: Guid(62d2c3ac666b39e4d802f8d63d567987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3text.blend using Guid(62d2c3ac666b39e4d802f8d63d567987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0005cf531ea657999e15fd2e374ffe15') in 0.051692 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FREEtext.blend
+  artifactKey: Guid(af2e01bd77b021644bb883625fc48313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FREEtext.blend using Guid(af2e01bd77b021644bb883625fc48313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a85cab529349d16b21ee90e7d6989ee') in 0.035570 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/MYtext.blend
+  artifactKey: Guid(b605f48992dca1849a9cc04f5b63e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYtext.blend using Guid(b605f48992dca1849a9cc04f5b63e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b056dfcdd1d82da5e856d1f6e416735') in 0.035381 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PACKtext.blend
+  artifactKey: Guid(756dedcee835dea449088d9051f11368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PACKtext.blend using Guid(756dedcee835dea449088d9051f11368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e44206c8ba1ade086c68a0bb3b9888') in 0.029199 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 585.620547 seconds.
+  path: Assets/2text.blend
+  artifactKey: Guid(4139777dd416814428d99e653c8c19db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/2text.blend using Guid(4139777dd416814428d99e653c8c19db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0038fe9d7a9b19c870a000dc053002f0') in 0.059123 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DDtext.blend
+  artifactKey: Guid(211617c2e9024f5458166381de94ef24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DDtext.blend using Guid(211617c2e9024f5458166381de94ef24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8daf2d416146fe31f2cf24fc05510db9') in 0.023053 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FUTtext.blend
+  artifactKey: Guid(7c50066a5477f6746b219cf2834f020d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FUTtext.blend using Guid(7c50066a5477f6746b219cf2834f020d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18efd7846a625a30916a3442dcd88a3e') in 0.073608 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BACKtext.blend
+  artifactKey: Guid(315273bda1ab01c4b8bcbc244e507d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BACKtext.blend using Guid(315273bda1ab01c4b8bcbc244e507d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69354670aebebfe25bf9a7e026b51894') in 0.068172 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PACKStext.blend
+  artifactKey: Guid(14530340b01a3e84ab2295ddb9dd1666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PACKStext.blend using Guid(14530340b01a3e84ab2295ddb9dd1666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05facfcf4cfbda5a7756ec1628e2b98') in 0.063552 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3text.blend
+  artifactKey: Guid(62d2c3ac666b39e4d802f8d63d567987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3text.blend using Guid(62d2c3ac666b39e4d802f8d63d567987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ab385ea964b0a925af39387d2119b9') in 0.051830 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FREEtext.blend
+  artifactKey: Guid(af2e01bd77b021644bb883625fc48313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FREEtext.blend using Guid(af2e01bd77b021644bb883625fc48313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f524afc9e144314b24a5d1284d14e9f') in 0.045897 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MYtext.blend
+  artifactKey: Guid(b605f48992dca1849a9cc04f5b63e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYtext.blend using Guid(b605f48992dca1849a9cc04f5b63e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef9351d5ced70a271d74d36f5cb5195') in 0.064798 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/STOREtext.blend
+  artifactKey: Guid(d774dd198af250b4a970848170808069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/STOREtext.blend using Guid(d774dd198af250b4a970848170808069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356dbd9f49aa1a5ad55770591c3c84a0') in 0.061045 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PACKtext.blend
+  artifactKey: Guid(756dedcee835dea449088d9051f11368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PACKtext.blend using Guid(756dedcee835dea449088d9051f11368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ea48557e852800792a0bd9a843027a') in 0.045462 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 13.050597 seconds.
+  path: Assets/2text.blend1
+  artifactKey: Guid(2f700b50b3378f24bb1d3dcd52172945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/2text.blend1 using Guid(2f700b50b3378f24bb1d3dcd52172945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5cec6a0de8c93c2f34b05313550cba') in 0.005757 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.460961 seconds.
+  path: Assets/3text.blend1
+  artifactKey: Guid(964290a9241aef84f91928de23a328fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/3text.blend1 using Guid(964290a9241aef84f91928de23a328fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7394fee0f80f9a148a6de1f5fef662ee') in 0.001883 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.082299 seconds.
+  path: Assets/BACKtext.blend1
+  artifactKey: Guid(48ad36d727c3a4c4e8c4b36e39798b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/BACKtext.blend1 using Guid(48ad36d727c3a4c4e8c4b36e39798b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e03b2847492f61842e6bec6f941eea') in 0.002055 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.437392 seconds.
+  path: Assets/DDtext.blend1
+  artifactKey: Guid(16b2954dbca27d94caee4b9e3fb98e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DDtext.blend1 using Guid(16b2954dbca27d94caee4b9e3fb98e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d64e8f161a09d6351cb5a0d5cbd4bd3') in 0.002176 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.039750 seconds.
+  path: Assets/FREEtext.blend1
+  artifactKey: Guid(1e933c12406a7a94b92f247ff9014ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FREEtext.blend1 using Guid(1e933c12406a7a94b92f247ff9014ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b437e55ef4b1395d997ed1eb9803f866') in 0.002092 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.337363 seconds.
+  path: Assets/FUTtext.blend1
+  artifactKey: Guid(f4219772ffebfd94c8268e8307fa75e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FUTtext.blend1 using Guid(f4219772ffebfd94c8268e8307fa75e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c95ad8ca4d653cc166ec15348a3e73') in 0.002174 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.682347 seconds.
+  path: Assets/MYtext.blend1
+  artifactKey: Guid(a9b565b5af1ed01499b24e0649411abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MYtext.blend1 using Guid(a9b565b5af1ed01499b24e0649411abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9312d5a4542954629e8ebb0f341be4') in 0.002518 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.663878 seconds.
+  path: Assets/PACKStext.blend1
+  artifactKey: Guid(4c8f44ed7d4686f46a9dc6f4a70ce5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PACKStext.blend1 using Guid(4c8f44ed7d4686f46a9dc6f4a70ce5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c7859eb0a3bc690791a0a37d80bb09') in 0.002251 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.300755 seconds.
+  path: Assets/PACKtext.blend1
+  artifactKey: Guid(2c2d16b85aa244243a1543c61d8dbb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PACKtext.blend1 using Guid(2c2d16b85aa244243a1543c61d8dbb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0fe4a033e07f1de4dc82f680beff11') in 0.003480 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.168388 seconds.
+  path: Assets/STOREtext.blend1
+  artifactKey: Guid(fac4a4a9b246f7145a79dee92afee5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/STOREtext.blend1 using Guid(fac4a4a9b246f7145a79dee92afee5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c64d2ea588cce76a1d1bbf3f5b2ffa7b') in 0.001940 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 368.293510 seconds.
+  path: Assets/CARDStext.blend
+  artifactKey: Guid(67b7ba282e146ef4a91e4070d98024d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDStext.blend using Guid(67b7ba282e146ef4a91e4070d98024d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b998796c9b5986aafd093985a69f0fef') in 0.038174 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 179.207983 seconds.
+  path: Assets/DRAFTtext.blend
+  artifactKey: Guid(5dc5a9e8889839c4991ea9b4a7f85224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/DRAFTtext.blend using Guid(5dc5a9e8889839c4991ea9b4a7f85224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15bc33fb70fe11c738f4100d5207692') in 0.043444 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 181.709895 seconds.
+  path: Assets/AND_OTHERStext.blend
+  artifactKey: Guid(d3247c94b26c339428db0c5fdcb94f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/AND_OTHERStext.blend using Guid(d3247c94b26c339428db0c5fdcb94f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8c40da12209258ed22c3c185f7ef0b') in 0.050343 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SBCStext.blend
+  artifactKey: Guid(9725797f2a5342b4a88fc2d6a862f7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SBCStext.blend using Guid(9725797f2a5342b4a88fc2d6a862f7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675701ae29e996e887c3416233ada465') in 0.074465 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/OBJECTIVEStext.blend
+  artifactKey: Guid(533f9f9d6de5456409a7b3796f556086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/OBJECTIVEStext.blend using Guid(533f9f9d6de5456409a7b3796f556086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb5f67a3005e52ba9a2b700d9b43275') in 0.066846 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 227.115322 seconds.
+  path: Assets/ANDtext.blend
+  artifactKey: Guid(0989adbf107794a4e8ededdb223efddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ANDtext.blend using Guid(0989adbf107794a4e8ededdb223efddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be54d5e5ce9d184d468f6c21278eca2f') in 0.067917 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/OTHERStext.blend
+  artifactKey: Guid(c102d66528c76284d8c9ea1018177c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/OTHERStext.blend using Guid(c102d66528c76284d8c9ea1018177c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e4cb007085f863d1d7220c15753a26') in 0.028966 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 406.095674 seconds.
+  path: Assets/POSITIONS
+  artifactKey: Guid(98fce15f366e6904aba43dddb696e4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/POSITIONS using Guid(98fce15f366e6904aba43dddb696e4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a243436b4b7dabb3c36c4f7791029706') in 0.002393 seconds 
 Number of asset objects unloaded after import = 0
