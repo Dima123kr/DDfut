@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 99
+  controlID: 98
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -322,23 +322,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/CLUBS
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/CLUBS
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6e7d0100
-    m_LastClickedID: 97646
-    m_ExpandedIDs: 000000006e7d010000ca9a3bffffff7f
+    m_SelectedIDs: 027e0100
+    m_LastClickedID: 97794
+    m_ExpandedIDs: 00000000ea7d010000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006e7d0100
+    m_ExpandedIDs: 00000000ea7d0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -504,8 +504,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e4faffff
-      m_LastClickedID: -1308
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: 2efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -859,9 +859,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4.4703565, y: 3.2201037, z: -12.177044}
+    m_Target: {x: -16.435715, y: 1.2605083, z: -10.751598}
     speed: 2
-    m_Value: {x: 4.4703565, y: 3.2201037, z: -12.177044}
+    m_Value: {x: -16.435715, y: 1.2605083, z: -10.751598}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -907,9 +907,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.1170279, y: -0.0021720806, z: 0.0007680595, w: -0.99325204}
+    m_Target: {x: -0.0040229736, y: -0.1485284, z: 0.0016299369, w: -0.9890262}
     speed: 2
-    m_Value: {x: 0.11701197, y: -0.00068211503, z: 0.00094348233, w: -0.99312985}
+    m_Value: {x: -0.0040229736, y: -0.14852838, z: 0.0016299369, w: -0.9890262}
   m_Size:
     m_Target: 3.613943
     speed: 2
@@ -994,7 +994,7 @@ MonoBehaviour:
     x: 387
     y: 73
     width: 1181
-    height: 631
+    height: 630
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1010,7 +1010,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1181, y: 610}
+  m_TargetSize: {x: 1181, y: 609}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1027,8 +1027,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -590.5
     m_HBaseRangeMax: 590.5
-    m_VBaseRangeMin: -305
-    m_VBaseRangeMax: 305
+    m_VBaseRangeMin: -304.5
+    m_VBaseRangeMax: 304.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1047,9 +1047,9 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 1181
-      height: 610
+      height: 609
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 590.5, y: 305}
+    m_Translation: {x: 590.5, y: 304.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -1057,12 +1057,12 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -590.5
-      y: -305
+      y: -304.5
       width: 1181
-      height: 610
+      height: 609
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1181, y: 631}
+  m_LastWindowPixelSize: {x: 1181, y: 630}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000

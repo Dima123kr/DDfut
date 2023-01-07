@@ -15,7 +15,7 @@ C:/Users/Дима/Documents/GitHub/DDfut
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60969
+51690
 Successfully changed project path to: C:/Users/Дима/Documents/GitHub/DDfut
 C:/Users/Дима/Documents/GitHub/DDfut
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Дима/Documents/GitHub/DDfut
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10688] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 3189168004 [EditorId] 3189168004 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D8CQGBP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [6348] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 2103987667 [EditorId] 2103987667 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D8CQGBP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10688] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 3189168004 [EditorId] 3189168004 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D8CQGBP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [6348] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 2103987667 [EditorId] 2103987667 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D8CQGBP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 8.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 8.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.1f1 (4fead5835099)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -67,17 +67,17 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008804 seconds.
-- Loaded All Assemblies, in  0.503 seconds
+Registered in 0.008662 seconds.
+- Loaded All Assemblies, in  0.502 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.420 seconds
+- Finished resetting the current domain, in  0.460 seconds
 Domain Reload Profiling:
-	ReloadAssembly (277ms)
+	ReloadAssembly (279ms)
 		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
@@ -85,23 +85,23 @@ Domain Reload Profiling:
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (100ms)
+			LoadAssemblies (101ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (218ms)
-				TypeCache.Initialize (217ms)
-					TypeCache.ScanAssembly (215ms)
+			SetupTypeCache (214ms)
+				TypeCache.Initialize (213ms)
+					TypeCache.ScanAssembly (211ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (331ms)
+			SetupLoadedEditorAssemblies (368ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (11ms)
+				SetLoadedEditorAssemblies (12ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (227ms)
-				ProcessInitializeOnLoadMethodAttributes (77ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,48 +111,48 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Дима\Documents\GitHub\DDfut\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Дима\Documents\GitHub\DDfut\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.187 seconds
-Refreshing native plugins compatible for Editor in 3.80 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.027 seconds
+Refreshing native plugins compatible for Editor in 4.47 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.859 seconds
+- Finished resetting the current domain, in  0.874 seconds
 Domain Reload Profiling:
-	ReloadAssembly (338ms)
-		BeginReloadAssembly (172ms)
+	ReloadAssembly (293ms)
+		BeginReloadAssembly (158ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		LoadAllAssembliesAndSetupDomain (846ms)
-			LoadAssemblies (113ms)
+			CreateAndSetChildDomain (27ms)
+		LoadAllAssembliesAndSetupDomain (731ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (805ms)
-				TypeCache.Initialize (453ms)
-					TypeCache.ScanAssembly (447ms)
-				ResolveRequiredComponents (7ms)
+			SetupTypeCache (697ms)
+				TypeCache.Initialize (386ms)
+					TypeCache.ScanAssembly (380ms)
+				ResolveRequiredComponents (8ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (594ms)
+			SetupLoadedEditorAssemblies (614ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (12ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (13ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (423ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (439ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 3.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3465 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 26 unused Assets / (68.0 KB). Loaded Objects now: 3927.
 Memory consumption went from 0.53 GB to 0.53 GB.
-Total: 4.863900 ms (FindLiveObjects: 0.405800 ms CreateObjectMapping: 0.410900 ms MarkObjects: 3.919600 ms  DeleteObjects: 0.126200 ms)
+Total: 6.055400 ms (FindLiveObjects: 0.416400 ms CreateObjectMapping: 0.707000 ms MarkObjects: 4.782200 ms  DeleteObjects: 0.146900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -167,713 +167,153 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 22897.064360 seconds.
-  path: Assets/CLUBS/Тоттенхэм Хотспур.blend
-  artifactKey: Guid(060d35e8db44a6a4bb9e5656d0b9eda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 29772.216158 seconds.
+  path: Assets/text2.blend
+  artifactKey: Guid(4139777dd416814428d99e653c8c19db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Тоттенхэм Хотспур.blend using Guid(060d35e8db44a6a4bb9e5656d0b9eda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e53cd571f2f71703ae6d1699bbbbf2') in 0.220684 seconds 
+Start importing Assets/text2.blend using Guid(4139777dd416814428d99e653c8c19db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab259af25879f13f08ceb590b8bf674') in 0.223595 seconds 
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/CLUBS/Витесс.blend
-  artifactKey: Guid(fdf29878e9871ff4d8998a201ef49a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 3.331312 seconds.
+  path: Assets/text3.blend
+  artifactKey: Guid(62d2c3ac666b39e4d802f8d63d567987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Витесс.blend using Guid(fdf29878e9871ff4d8998a201ef49a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44586f1f3ebf455f9cd19229152d52f5') in 0.050172 seconds 
+Start importing Assets/text3.blend using Guid(62d2c3ac666b39e4d802f8d63d567987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4a55000683fe39d8373213f4e19298') in 0.016806 seconds 
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CLUBS/Ливерпуль.blend
-  artifactKey: Guid(8cba01f4e5c988e44b5b69e7e850f351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 11.424667 seconds.
+  path: Assets/textAND.blend
+  artifactKey: Guid(0989adbf107794a4e8ededdb223efddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Ливерпуль.blend using Guid(8cba01f4e5c988e44b5b69e7e850f351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54a2e7aa3f29f4606c2648a162d025c') in 0.060191 seconds 
+Start importing Assets/textAND.blend using Guid(0989adbf107794a4e8ededdb223efddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20139b9fb5d49948ce8ef86211eb522c') in 0.070882 seconds 
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/CLUBS/Фортуна.blend
-  artifactKey: Guid(f581fd6955213de479a1426269f95f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 11.944836 seconds.
+  path: Assets/textBACK.blend
+  artifactKey: Guid(315273bda1ab01c4b8bcbc244e507d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Фортуна.blend using Guid(f581fd6955213de479a1426269f95f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9f7db21d65c9e673969f6e560f8996') in 0.042684 seconds 
+Start importing Assets/textBACK.blend using Guid(315273bda1ab01c4b8bcbc244e507d7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '169114625fb68a4a085bd17d3eaef2b6') in 0.038848 seconds 
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CLUBS/Анже.blend
-  artifactKey: Guid(352510bab7659214e844b6f333ef8990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 11.396784 seconds.
+  path: Assets/textCARDS.blend
+  artifactKey: Guid(67b7ba282e146ef4a91e4070d98024d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Анже.blend using Guid(352510bab7659214e844b6f333ef8990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860fbbf15c6ca7879e0858ebcc4edd09') in 0.028780 seconds 
+Start importing Assets/textCARDS.blend using Guid(67b7ba282e146ef4a91e4070d98024d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0366af64f15eed0f3ec4cf7d13848e34') in 0.033754 seconds 
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CLUBS/Верона.blend
-  artifactKey: Guid(7eeda8e480a82254083ab4515b5db501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 8.643588 seconds.
+  path: Assets/textDD.blend
+  artifactKey: Guid(211617c2e9024f5458166381de94ef24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Верона.blend using Guid(7eeda8e480a82254083ab4515b5db501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb64cdd738c0deb6081ae120709399f') in 0.056369 seconds 
+Start importing Assets/textDD.blend using Guid(211617c2e9024f5458166381de94ef24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a11c2320dbc6bd71157f6f354b33bf8') in 0.016778 seconds 
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CLUBS/Осасуна.blend
-  artifactKey: Guid(cf2b3b27045d6c34cbc45581a6e21b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 16.590888 seconds.
+  path: Assets/textDRAFT.blend
+  artifactKey: Guid(5dc5a9e8889839c4991ea9b4a7f85224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Осасуна.blend using Guid(cf2b3b27045d6c34cbc45581a6e21b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481d46341cb00d5c3cabf3a5d969acd5') in 0.055060 seconds 
+Start importing Assets/textDRAFT.blend using Guid(5dc5a9e8889839c4991ea9b4a7f85224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f20a739ac4c52891f7fc9ce20df2c3') in 0.016202 seconds 
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/CLUBS/Псж.blend
-  artifactKey: Guid(7efc6aed62716a242beb61d9cb8ddc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 35.771463 seconds.
+  path: Assets/textFREE.blend
+  artifactKey: Guid(af2e01bd77b021644bb883625fc48313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Псж.blend using Guid(7efc6aed62716a242beb61d9cb8ddc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11fdf89f06ba45b2bc4ec19607129ced') in 0.049668 seconds 
+Start importing Assets/textFREE.blend using Guid(af2e01bd77b021644bb883625fc48313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5632f172258e5bc7e10556141f61027c') in 0.016154 seconds 
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CLUBS/Реал Солт-Лейк.blend
-  artifactKey: Guid(640e015e5942cb8428c78389f9d73fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 12.903412 seconds.
+  path: Assets/textFUT.blend
+  artifactKey: Guid(7c50066a5477f6746b219cf2834f020d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Реал Солт-Лейк.blend using Guid(640e015e5942cb8428c78389f9d73fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875f4c6a4929c18f456b71d458c92e7d') in 0.027520 seconds 
+Start importing Assets/textFUT.blend using Guid(7c50066a5477f6746b219cf2834f020d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3231fa7142752abc6cad7ce6237892fc') in 0.029978 seconds 
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CLUBS/Торино.blend
-  artifactKey: Guid(4648d65c4e993e443937d499507c605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 22.905268 seconds.
+  path: Assets/cardGKBLACK.blend
+  artifactKey: Guid(7a243891cf867c248b421023a39a5f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Торино.blend using Guid(4648d65c4e993e443937d499507c605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec69307d6b33c02a4ded6d34cde5425') in 0.042741 seconds 
+Start importing Assets/cardGKBLACK.blend using Guid(7a243891cf867c248b421023a39a5f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f9e05f88bf9115dda275d9fd4534d3') in 0.438811 seconds 
+Number of asset objects unloaded after import = 62
+========================================================================
+Received Import Request.
+  Time since last request: 17.857802 seconds.
+  path: Assets/textMY.blend
+  artifactKey: Guid(b605f48992dca1849a9cc04f5b63e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/textMY.blend using Guid(b605f48992dca1849a9cc04f5b63e7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2ead7ee3ac791a50dc19db0b96bfb5') in 0.032932 seconds 
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/CLUBS/Остин.blend
-  artifactKey: Guid(9c771b9161a1f644db0dc5bc17a2edda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 17.972693 seconds.
+  path: Assets/textOBJECTIVES.blend
+  artifactKey: Guid(533f9f9d6de5456409a7b3796f556086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Остин.blend using Guid(9c771b9161a1f644db0dc5bc17a2edda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7c6b52a412dce926a73c1afaf9d656') in 0.025052 seconds 
+Start importing Assets/textOBJECTIVES.blend using Guid(533f9f9d6de5456409a7b3796f556086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba1d0fe29191fa7b60f66ed67e6bd41') in 0.035952 seconds 
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CLUBS/Лестер Сити.blend
-  artifactKey: Guid(8aaa9ec2cb823d74a99934fec3e4c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 10.909379 seconds.
+  path: Assets/textOTHERS.blend
+  artifactKey: Guid(c102d66528c76284d8c9ea1018177c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Лестер Сити.blend using Guid(8aaa9ec2cb823d74a99934fec3e4c8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e79a6d7389c776c2056a6ff63d517b') in 0.032530 seconds 
+Start importing Assets/textOTHERS.blend using Guid(c102d66528c76284d8c9ea1018177c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae11847a6f195105727ca1988fa8a2c') in 0.039224 seconds 
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/CLUBS/Нант.blend
-  artifactKey: Guid(cc2c3d4765a31c74da7e1af8f47a3d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 19.149518 seconds.
+  path: Assets/textPACKS.blend
+  artifactKey: Guid(14530340b01a3e84ab2295ddb9dd1666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Нант.blend using Guid(cc2c3d4765a31c74da7e1af8f47a3d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9616e2db3d0b4b0e1b8899110717bbe2') in 0.043393 seconds 
+Start importing Assets/textPACKS.blend using Guid(14530340b01a3e84ab2295ddb9dd1666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2a524b80d2db429d8956a5fbf98210') in 0.035565 seconds 
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CLUBS/Камбюр.blend
-  artifactKey: Guid(a8fadc4af82c38142afb8deba0a4fa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 20.620988 seconds.
+  path: Assets/textPACK.blend
+  artifactKey: Guid(756dedcee835dea449088d9051f11368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Камбюр.blend using Guid(a8fadc4af82c38142afb8deba0a4fa11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a83966a27896624e8383bc62b47690') in 0.017018 seconds 
+Start importing Assets/textPACK.blend using Guid(756dedcee835dea449088d9051f11368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ea5ed219cb7eda44487cfba3b239f0') in 0.044186 seconds 
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/CLUBS/Бешикташ.blend
-  artifactKey: Guid(cc966842442d0ca4483c197edf80aae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 27.753104 seconds.
+  path: Assets/textSBCS.blend
+  artifactKey: Guid(9725797f2a5342b4a88fc2d6a862f7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Бешикташ.blend using Guid(cc966842442d0ca4483c197edf80aae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6e9127a245f5ee488bed6c7c273987') in 0.037467 seconds 
+Start importing Assets/textSBCS.blend using Guid(9725797f2a5342b4a88fc2d6a862f7ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55451432a029b363c3ec9ad93fc0ba54') in 0.071144 seconds 
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/CLUBS/РБ Лейпциг.blend
-  artifactKey: Guid(b03ee630e840bb441a6e7b6ec22cba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 10.134411 seconds.
+  path: Assets/textSTORE.blend
+  artifactKey: Guid(d774dd198af250b4a970848170808069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/РБ Лейпциг.blend using Guid(b03ee630e840bb441a6e7b6ec22cba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f086e279c4d22cafc12f4e3974c09a93') in 0.035219 seconds 
+Start importing Assets/textSTORE.blend using Guid(d774dd198af250b4a970848170808069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f460c89b73f9c3e957fcb2ca99e03053') in 0.051294 seconds 
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CLUBS/Гронинген.blend
-  artifactKey: Guid(4862d1631b701df4789a72a3c9b54ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 209.494056 seconds.
+  path: Assets/textCHALLENGES.blend
+  artifactKey: Guid(47c47b16f7439c54b8505879ac1eabd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Гронинген.blend using Guid(4862d1631b701df4789a72a3c9b54ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39451f0e7efaeb6a1ff1533250f9eacb') in 0.043718 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/CLUBS/Спортинг Канзас-Сити.blend
-  artifactKey: Guid(397d0bd16c5ea2348adc7eefb25a7a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Спортинг Канзас-Сити.blend using Guid(397d0bd16c5ea2348adc7eefb25a7a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5196fca0e494074a8670a8eba7cda5f3') in 0.040792 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CLUBS/Болонья.blend
-  artifactKey: Guid(44b09f558dd6e184da71bfde7d4722e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Болонья.blend using Guid(44b09f558dd6e184da71bfde7d4722e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e3c5518d914f2d718d61c2e17079db') in 0.039489 seconds 
+Start importing Assets/textCHALLENGES.blend using Guid(47c47b16f7439c54b8505879ac1eabd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6691b9f1b9b7dba35f9e1a36251c4a') in 0.059099 seconds 
 Number of asset objects unloaded after import = 7
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/CLUBS/Нэшвилл.blend
-  artifactKey: Guid(f407aa06b19360743a62952157913d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/textTOURNAMENTS.blend
+  artifactKey: Guid(390b6916889094c4e9ba8c2c72f703d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Нэшвилл.blend using Guid(f407aa06b19360743a62952157913d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6295f01867b5e76a5f5d58466393f4f9') in 0.051150 seconds 
+Start importing Assets/textTOURNAMENTS.blend using Guid(390b6916889094c4e9ba8c2c72f703d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054b3bdf91d326d333a2d6dc84af054b') in 0.027618 seconds 
 Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/CLUBS/Манчестер Юнайтед.blend
-  artifactKey: Guid(6fb90ba34ea7f4749b662db35518138b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Манчестер Юнайтед.blend using Guid(6fb90ba34ea7f4749b662db35518138b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5974917cef43ac2828f55d5a31580500') in 0.042157 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CLUBS/Антальяспор.blend
-  artifactKey: Guid(709b0fb8fbad545419d62de7f3442c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Антальяспор.blend using Guid(709b0fb8fbad545419d62de7f3442c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f163417313dbb7bd87baa2c33df33d') in 0.045234 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CLUBS/Интер Майами.blend
-  artifactKey: Guid(4430f4b85331d75459ee117636f1b101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Интер Майами.blend using Guid(4430f4b85331d75459ee117636f1b101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc372dcb61e24ff6f84d016b2312d8d5') in 0.033225 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/CLUBS/Эксельсиор.blend
-  artifactKey: Guid(a6e36b0ac1584c14c9be6a37b8cc7f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Эксельсиор.blend using Guid(a6e36b0ac1584c14c9be6a37b8cc7f66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7eed5f1480a28aeb91d5f754d35dab') in 0.054152 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CLUBS/Жил Висенте.blend
-  artifactKey: Guid(289aadae4e9e1d641a0cb3cce694b7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Жил Висенте.blend using Guid(289aadae4e9e1d641a0cb3cce694b7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bab387fcfc2223e5d09413c9e9c957') in 0.054524 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CLUBS/Брест.blend
-  artifactKey: Guid(d6306edb25b49a444b4e458ace8c1f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Брест.blend using Guid(d6306edb25b49a444b4e458ace8c1f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ebb09cb1aed1e3f9d0a7c44363da2a') in 0.052380 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/CLUBS/Динамо Хьюстон.blend
-  artifactKey: Guid(960300312efdf2b4dbb9392058b93943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Динамо Хьюстон.blend using Guid(960300312efdf2b4dbb9392058b93943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a70197dcc35b6ca387e81823042835a') in 0.035796 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CLUBS/Фамаликан.blend
-  artifactKey: Guid(ec0995ae3dd95134a8892d915d92c2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Фамаликан.blend using Guid(ec0995ae3dd95134a8892d915d92c2d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4293df64c2495b170f043d3d716625a4') in 0.042716 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/CLUBS/Порту.blend
-  artifactKey: Guid(e49e4c28440bbe840bcf219e9c943954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Порту.blend using Guid(e49e4c28440bbe840bcf219e9c943954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e168817cd0a2dd6b578a02a38ea19951') in 0.055288 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CLUBS/Атлетик Бильбао.blend
-  artifactKey: Guid(7ed15443b6e1881418954570d406512a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Атлетик Бильбао.blend using Guid(7ed15443b6e1881418954570d406512a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1c2b8f2c5233fb244b10d1f8a91bb7') in 0.039387 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/CLUBS/Херенвен.blend
-  artifactKey: Guid(0ab559547f6864d48bbad3722164f867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Херенвен.blend using Guid(0ab559547f6864d48bbad3722164f867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c120d9c1184fd18d0dc5d5ea84b518d9') in 0.032943 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CLUBS/Фейеноорд.blend
-  artifactKey: Guid(b8df83c2e24a7db498965ea9a7d026e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Фейеноорд.blend using Guid(b8df83c2e24a7db498965ea9a7d026e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585c969510d27183aef5f44e9fa303a6') in 0.048224 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/CLUBS/Сассуоло.blend
-  artifactKey: Guid(982f5bccfb260eb498acf5d563311b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Сассуоло.blend using Guid(982f5bccfb260eb498acf5d563311b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ede7948c0e30983c06e16c046dba9ef') in 0.039604 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/CLUBS/Удинезе.blend
-  artifactKey: Guid(4bf05cb9e2c1a7f4b8389a635f89777e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Удинезе.blend using Guid(4bf05cb9e2c1a7f4b8389a635f89777e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b32bb63505bfff65daa3e5bbbdda38') in 0.041588 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CLUBS/Фулхэм.blend
-  artifactKey: Guid(b76cdd70628faf84e8dae75e304ebe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Фулхэм.blend using Guid(b76cdd70628faf84e8dae75e304ebe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283fe3d07ed4e52f5af93ff7767b98ec') in 0.051406 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/CLUBS/Клермон.blend
-  artifactKey: Guid(ad338dffd95439c479d952f1b52caa82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Клермон.blend using Guid(ad338dffd95439c479d952f1b52caa82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5755ffcd4d2b6913bfeb36a1f68c2d') in 0.033897 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CLUBS/Монпелье.blend
-  artifactKey: Guid(b250c1bfad2b2fa4d9f21a3356b52519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Монпелье.blend using Guid(b250c1bfad2b2fa4d9f21a3356b52519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab887c65887e0e3416275329bac288e') in 0.039997 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/CLUBS/Ювентус.blend
-  artifactKey: Guid(98e560e22589fed40bb44655d361b024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Ювентус.blend using Guid(98e560e22589fed40bb44655d361b024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd22c50dd9da78231e663b8d6625f584') in 0.055272 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/CLUBS/Салернитана.blend
-  artifactKey: Guid(3736fc4a8a6742f488c1deb69e0f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Салернитана.blend using Guid(3736fc4a8a6742f488c1deb69e0f343c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde5d45a3698e6bc380edf1dd673bd45') in 0.032703 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CLUBS/Аталанта.blend
-  artifactKey: Guid(1ea11fde9e9af264589c5b53167b4934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Аталанта.blend using Guid(1ea11fde9e9af264589c5b53167b4934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e36a27b8f04b86fcbdf82067890d05') in 0.054574 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/CLUBS/Бенфика.blend
-  artifactKey: Guid(ca57439bf3403e14db7e63b217be84f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Бенфика.blend using Guid(ca57439bf3403e14db7e63b217be84f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16c442292d58cf18b7fab976fac4c3d') in 0.032423 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CLUBS/Челси.blend
-  artifactKey: Guid(bfa4505708a649441a25735ab8f525d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Челси.blend using Guid(bfa4505708a649441a25735ab8f525d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd1f4af08882004857771111c392c1b') in 0.063187 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CLUBS/Унион.blend
-  artifactKey: Guid(39ac4861830fb2f4283933f5c72e65ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Унион.blend using Guid(39ac4861830fb2f4283933f5c72e65ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f173a56e6e198e43376496211b5defe') in 0.043212 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/CLUBS/Лорьян.blend
-  artifactKey: Guid(e034f82828ca35240b470f6bfa32e4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Лорьян.blend using Guid(e034f82828ca35240b470f6bfa32e4bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3defbb4cdc4ba1cf689f6ab504cc64ff') in 0.058347 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/CLUBS/Вулверхэмптон.blend
-  artifactKey: Guid(e234f748001b07740b98a5897871bd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Вулверхэмптон.blend using Guid(e234f748001b07740b98a5897871bd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae8158dd2471c2b23448eea817a2cab') in 0.054653 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/CLUBS/Лилль.blend
-  artifactKey: Guid(a51daa4146df5164cb3d3f160614e802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Лилль.blend using Guid(a51daa4146df5164cb3d3f160614e802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bd8bbc81c372c131a946111963dc3c') in 0.053082 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CLUBS/Брайтон.blend
-  artifactKey: Guid(2cd4644083bef014ba5a06691dbdae74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Брайтон.blend using Guid(2cd4644083bef014ba5a06691dbdae74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f643684b93a2eb1a2ad0ee92be6d7de2') in 0.049675 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CLUBS/Риу Аве.blend
-  artifactKey: Guid(d1b4ad591123ec1458cdf1e2ed0ed772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Риу Аве.blend using Guid(d1b4ad591123ec1458cdf1e2ed0ed772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dccde763f9dbec3c6c0430d6f5f121f') in 0.070148 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CLUBS/Аланьяспор.blend
-  artifactKey: Guid(f1a955b6d56939c4fb3fd095db927ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Аланьяспор.blend using Guid(f1a955b6d56939c4fb3fd095db927ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2a769d9d4d7fac10a3322ef42bef42') in 0.053004 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/CLUBS/Валенсия.blend
-  artifactKey: Guid(01a3e07c7c0d9c44d950de1c7e8297b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Валенсия.blend using Guid(01a3e07c7c0d9c44d950de1c7e8297b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492a821b05c763b92fd746f1e64233c6') in 0.067154 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/CLUBS/Аугсбург.blend
-  artifactKey: Guid(0c729add40dc6c149af0e50f3389cf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Аугсбург.blend using Guid(0c729add40dc6c149af0e50f3389cf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5845f37d3613484061d5be2690c7abfd') in 0.046471 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/CLUBS/Бохум.blend
-  artifactKey: Guid(3fa2d377e4cc8214ea84a659a3cf62db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Бохум.blend using Guid(3fa2d377e4cc8214ea84a659a3cf62db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb71ee7054ea0edd23709f44d6ff7750') in 0.042289 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CLUBS/Филадельфия Юнион.blend
-  artifactKey: Guid(6499241abdaedc74ebc684bb1cd08745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Филадельфия Юнион.blend using Guid(6499241abdaedc74ebc684bb1cd08745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257348384d87d20088138bf4520961a9') in 0.050095 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CLUBS/Шавиш.blend
-  artifactKey: Guid(5c29ae1e282d33d489309c2c6dd3d2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Шавиш.blend using Guid(5c29ae1e282d33d489309c2c6dd3d2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fec5f8b06eac8180799f7ceb31b7e09') in 0.052175 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/CLUBS/Сивасспор.blend
-  artifactKey: Guid(981505a651eca3c4587b8ada8027a266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Сивасспор.blend using Guid(981505a651eca3c4587b8ada8027a266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a7418f5552003f5b99e0ee5c75af82') in 0.037309 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CLUBS/Страсбург.blend
-  artifactKey: Guid(dda5075ff8441284fb5cccb24131dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Страсбург.blend using Guid(dda5075ff8441284fb5cccb24131dde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e35a2dce2aa4e37073857c6673b4a0') in 0.027758 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CLUBS/Эспаньол.blend
-  artifactKey: Guid(ad7ece143bdb2e742a4171168fa4bb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Эспаньол.blend using Guid(ad7ece143bdb2e742a4171168fa4bb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e15929bbdb190cc585672402e333fc') in 0.041830 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CLUBS/Лос-Анджелес.blend
-  artifactKey: Guid(638ba6b272dd7bb4fabb7a7813b0eff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Лос-Анджелес.blend using Guid(638ba6b272dd7bb4fabb7a7813b0eff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dcae137f37c8f3ff12121abbaf1d1cb') in 0.027929 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CLUBS/Мальорка.blend
-  artifactKey: Guid(145eb44b62e28fb4899a80748c3c2e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Мальорка.blend using Guid(145eb44b62e28fb4899a80748c3c2e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a266a098c3107d21a75e2188cfaa4af6') in 0.048883 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/CLUBS/Кёльн.blend
-  artifactKey: Guid(b2a058543ab76024d9efa2761a7a33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Кёльн.blend using Guid(b2a058543ab76024d9efa2761a7a33cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04cfb23fc64cfbe378323d4a17c5645a') in 0.057106 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/CLUBS/Каза Пия.blend
-  artifactKey: Guid(8c8727e8a0b1ef744992061e1f016c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Каза Пия.blend using Guid(8c8727e8a0b1ef744992061e1f016c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182ecfbdd37d6cc2c8cf9cd309e61a2f') in 0.050758 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/CLUBS/Эммен.blend
-  artifactKey: Guid(7d0cf4248e5154a4791a7600412da571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Эммен.blend using Guid(7d0cf4248e5154a4791a7600412da571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a02c05814c52af19caacf0a7a84d5b2') in 0.041901 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/CLUBS/Санта-Клара.blend
-  artifactKey: Guid(c0303ea5d24bb3e4f9c5bb201c8af6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Санта-Клара.blend using Guid(c0303ea5d24bb3e4f9c5bb201c8af6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92fb6b1137d5346a050d68ba385e79d') in 0.035713 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CLUBS/Ванкувер Уайткэпс.blend
-  artifactKey: Guid(34f6d08b0fc613d49983ea2ff0bc1c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Ванкувер Уайткэпс.blend using Guid(34f6d08b0fc613d49983ea2ff0bc1c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fa33063557ba1e723b8770fb110471') in 0.037551 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CLUBS/Колорадо Рэпидз.blend
-  artifactKey: Guid(eab8f67e900134a4098e21b7ecccef23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Колорадо Рэпидз.blend using Guid(eab8f67e900134a4098e21b7ecccef23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65df1f7fdf0808c1ad1d36f202ffadb') in 0.040397 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CLUBS/Галатасарай.blend
-  artifactKey: Guid(8886d6428a01bc742a737f3c5d0ea46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Галатасарай.blend using Guid(8886d6428a01bc742a737f3c5d0ea46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4144820cedf10f11fafa969f246a5585') in 0.026611 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CLUBS/Гиресунспор.blend
-  artifactKey: Guid(9ed6355f8a573e049ba484b77883f3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Гиресунспор.blend using Guid(9ed6355f8a573e049ba484b77883f3e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36b47b1bed591c5f944b2178ef57d11') in 0.053415 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CLUBS/Хоффенхайм.blend
-  artifactKey: Guid(8dad100100791e940a7ff7472127e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Хоффенхайм.blend using Guid(8dad100100791e940a7ff7472127e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67aa2cd408c335c11abf519236dc72e0') in 0.050562 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CLUBS/Шарлотт.blend
-  artifactKey: Guid(d8262812f8f01ca429d86254d8fbc67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Шарлотт.blend using Guid(d8262812f8f01ca429d86254d8fbc67c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f044d1722198a2d44f203785d219a74a') in 0.039049 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CLUBS/Марсель.blend
-  artifactKey: Guid(b7e57899a2610554f9221681423ac249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Марсель.blend using Guid(b7e57899a2610554f9221681423ac249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d39929c310626bdc47249c9ebde89b8') in 0.054562 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CLUBS/Нью-Йорк Сити.blend
-  artifactKey: Guid(e98d7637cc3dd5c45bf108fe4974dd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Нью-Йорк Сити.blend using Guid(e98d7637cc3dd5c45bf108fe4974dd36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157a8475939f9d700043813d929b1354') in 0.042535 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CLUBS/Байер.blend
-  artifactKey: Guid(a60e4f55e7dd20c48acf25e2330ceac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Байер.blend using Guid(a60e4f55e7dd20c48acf25e2330ceac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5307a4115ca8f91ea84b42fcf09508c') in 0.050506 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CLUBS/Портимоненсе.blend
-  artifactKey: Guid(bf0f838797664f14bbcd3f4d51051d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Портимоненсе.blend using Guid(bf0f838797664f14bbcd3f4d51051d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370e4235c10a9b1ce1ce17f5b41e14fe') in 0.046990 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CLUBS/Севилья.blend
-  artifactKey: Guid(02b3a02c44a8f1c4f8943776f0ca71dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Севилья.blend using Guid(02b3a02c44a8f1c4f8943776f0ca71dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d53ff1475129272e17397163ed31de') in 0.037692 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/CLUBS/Миннесота Юнайтед.blend
-  artifactKey: Guid(cff8b38d3399844468c47092beff1881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Миннесота Юнайтед.blend using Guid(cff8b38d3399844468c47092beff1881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131ab7244c6850bb617c9a952861aa55') in 0.043882 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CLUBS/Боруссия Дортмунд.blend
-  artifactKey: Guid(c144c50851149454abca30f3bfddef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Боруссия Дортмунд.blend using Guid(c144c50851149454abca30f3bfddef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b981ff1d8fe36bb9b0621e600405749a') in 0.042032 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CLUBS/Труа.blend
-  artifactKey: Guid(3c9126dd61151f549b1a63c55e0877e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Труа.blend using Guid(3c9126dd61151f549b1a63c55e0877e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7182e2dc9c954e6cf24acee670c5352') in 0.021560 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CLUBS/Аяччо.blend
-  artifactKey: Guid(a68c5ea33213713449713e4fe4920af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Аяччо.blend using Guid(a68c5ea33213713449713e4fe4920af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c89ed5169a42c127b8cf7c9c421e1e') in 0.039231 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/CLUBS/Арсенал.blend
-  artifactKey: Guid(660ffe617c7a26b45bfdff28c0a00db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Арсенал.blend using Guid(660ffe617c7a26b45bfdff28c0a00db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a886412394a321778319655a3acff997') in 0.040708 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CLUBS/Волендам.blend
-  artifactKey: Guid(84799dc34def44c489d0b11e629650c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Волендам.blend using Guid(84799dc34def44c489d0b11e629650c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef398b27fde65a6aeb57208b49d868b') in 0.026586 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/CLUBS/Реймс.blend
-  artifactKey: Guid(bac35f2194ac66c478b2854f430243c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Реймс.blend using Guid(bac35f2194ac66c478b2854f430243c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e773a27dde70a24fb206dfd3c37029e0') in 0.037221 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/CLUBS/Истанбкулспор.blend
-  artifactKey: Guid(ea3b42b9e828cc543adf778d509cec95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Истанбкулспор.blend using Guid(ea3b42b9e828cc543adf778d509cec95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc418f66e71a305f1429dff5241ba0c') in 0.022154 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CLUBS/Ланс.blend
-  artifactKey: Guid(490c987870197aa4db8464d319e60cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Ланс.blend using Guid(490c987870197aa4db8464d319e60cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f250c2f81ff1c2c001c396f79626692') in 0.031858 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CLUBS/Кремонезе.blend
-  artifactKey: Guid(77f32c1c740b36d438fcfb6327d23946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Кремонезе.blend using Guid(77f32c1c740b36d438fcfb6327d23946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4246a3a70597cdaf734cd2b7bf95727') in 0.023552 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CLUBS/НЕК Неймеген.blend
-  artifactKey: Guid(9373054eee459ec44b26bfc628c7dda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/НЕК Неймеген.blend using Guid(9373054eee459ec44b26bfc628c7dda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd1e01b959b00f50928b7a8b58dec86') in 0.035641 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CLUBS/АЗ Алкмар.blend
-  artifactKey: Guid(034d0f8ce31c49441b289be84903bed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/АЗ Алкмар.blend using Guid(034d0f8ce31c49441b289be84903bed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3097a370389f89fa36344c1b6cc4780e') in 0.023065 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CLUBS/Визела.blend
-  artifactKey: Guid(c3bda65290307c6468edd1766f37db0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Визела.blend using Guid(c3bda65290307c6468edd1766f37db0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98425038dc23a9d034389d9d3597edd') in 0.041193 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/CLUBS/Ноттингем Форест.blend
-  artifactKey: Guid(8ccfa5adfe618004ab953906c7d11e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Ноттингем Форест.blend using Guid(8ccfa5adfe618004ab953906c7d11e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be0e7c7c840df9d4df765c2097e7614') in 0.043079 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 18.347918 seconds.
-  path: Assets/CLUBS/Спарта.blend
-  artifactKey: Guid(e08f5196337509a479dfc96f47f742ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Спарта.blend using Guid(e08f5196337509a479dfc96f47f742ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c43fb2f44b232d935a163da394dea4') in 0.002482 seconds 
-Number of asset objects unloaded after import = 1
