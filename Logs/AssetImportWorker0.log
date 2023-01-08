@@ -15,7 +15,7 @@ C:/Users/Дима/Documents/GitHub/DDfut
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55987
+54155
 Successfully changed project path to: C:/Users/Дима/Documents/GitHub/DDfut
 C:/Users/Дима/Documents/GitHub/DDfut
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/Дима/Documents/GitHub/DDfut
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6932] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 1111197365 [EditorId] 1111197365 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D8CQGBP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1344] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 4075302828 [EditorId] 4075302828 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D8CQGBP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [6932] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 1111197365 [EditorId] 1111197365 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D8CQGBP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1344] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 4075302828 [EditorId] 4075302828 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D8CQGBP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 8.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.1f1 (4fead5835099)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007684 seconds.
-- Loaded All Assemblies, in  0.447 seconds
+Registered in 0.011081 seconds.
+- Loaded All Assemblies, in  0.549 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.421 seconds
+- Finished resetting the current domain, in  0.513 seconds
 Domain Reload Profiling:
-	ReloadAssembly (244ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (301ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (89ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (192ms)
-				TypeCache.Initialize (191ms)
-					TypeCache.ScanAssembly (188ms)
+			SetupTypeCache (240ms)
+				TypeCache.Initialize (239ms)
+					TypeCache.ScanAssembly (236ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (331ms)
+			SetupLoadedEditorAssemblies (413ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (12ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (13ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (226ms)
-				ProcessInitializeOnLoadMethodAttributes (77ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,48 +111,48 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Дима\Documents\GitHub\DDfut\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Дима\Documents\GitHub\DDfut\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.149 seconds
-Refreshing native plugins compatible for Editor in 3.72 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.107 seconds
+Refreshing native plugins compatible for Editor in 3.89 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.828 seconds
+- Finished resetting the current domain, in  0.860 seconds
 Domain Reload Profiling:
-	ReloadAssembly (320ms)
-		BeginReloadAssembly (173ms)
+	ReloadAssembly (331ms)
+		BeginReloadAssembly (178ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		LoadAllAssembliesAndSetupDomain (827ms)
-			LoadAssemblies (115ms)
+			CreateAndSetChildDomain (31ms)
+		LoadAllAssembliesAndSetupDomain (773ms)
+			LoadAssemblies (116ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (784ms)
-				TypeCache.Initialize (454ms)
-					TypeCache.ScanAssembly (447ms)
-				ResolveRequiredComponents (8ms)
+			SetupTypeCache (732ms)
+				TypeCache.Initialize (425ms)
+					TypeCache.ScanAssembly (418ms)
+				ResolveRequiredComponents (7ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (583ms)
+			SetupLoadedEditorAssemblies (594ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (12ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (100ms)
-				ProcessInitializeOnLoadAttributes (412ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (418ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.24 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3465 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 26 unused Assets / (68.0 KB). Loaded Objects now: 3927.
 Memory consumption went from 0.53 GB to 0.53 GB.
-Total: 4.552100 ms (FindLiveObjects: 0.364200 ms CreateObjectMapping: 0.204600 ms MarkObjects: 3.849100 ms  DeleteObjects: 0.132600 ms)
+Total: 5.883000 ms (FindLiveObjects: 0.539400 ms CreateObjectMapping: 0.979000 ms MarkObjects: 4.208800 ms  DeleteObjects: 0.153400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -167,265 +167,129 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 10517.098313 seconds.
-  path: Assets/CLUBS/2_LigaPortugal.blend
-  artifactKey: Guid(05645382f2e13b34fad242c729a85573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 5760.174229 seconds.
+  path: Assets/CLUBS/Materials/EPL.mat
+  artifactKey: Guid(668045e053dd7c442a5368be8561f7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/2_LigaPortugal.blend using Guid(05645382f2e13b34fad242c729a85573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97f64cb6f02e0159a7bc459d71d04409') in 0.274188 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/CLUBS/2_EPL.blend
-  artifactKey: Guid(cbdb8a0b92c79a440b0dfb35d225e272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/2_EPL.blend using Guid(cbdb8a0b92c79a440b0dfb35d225e272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246861cdb400aa0852a768d057fca40f') in 0.061435 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CLUBS/2_MLS.blend
-  artifactKey: Guid(888b208c12e20e34e9c350ac439b2fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/2_MLS.blend using Guid(888b208c12e20e34e9c350ac439b2fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa11783bb07355e7667716253490bc97') in 0.050818 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CLUBS/2_Ligue1.blend
-  artifactKey: Guid(a41f07e3017d57a49bbfea5c14b1f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/2_Ligue1.blend using Guid(a41f07e3017d57a49bbfea5c14b1f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6d5c389cdfbdeeaa611f223d15a2fa') in 0.052604 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CLUBS/2_SeriaA.blend
-  artifactKey: Guid(ea2c77401125f464893648441d75d031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/2_SeriaA.blend using Guid(ea2c77401125f464893648441d75d031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369d958b6747d48269b6e65ebbe5f0e1') in 0.048723 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CLUBS/2_SuperLig.blend
-  artifactKey: Guid(18ae8a85e87a74e4e96c30952fbf1e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/2_SuperLig.blend using Guid(18ae8a85e87a74e4e96c30952fbf1e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b0a9aae01eda09a332cf951b06d39a') in 0.050696 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/CLUBS/2_Bundesliga.blend
-  artifactKey: Guid(f0f07cf0f4c069e48bca57b11ae5f2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/2_Bundesliga.blend using Guid(f0f07cf0f4c069e48bca57b11ae5f2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4851897a8d2007d3053794e7c24c21ae') in 0.044781 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/CLUBS/2_icons.blend
-  artifactKey: Guid(361f040083bed3c4aa79b864f0714c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/2_icons.blend using Guid(361f040083bed3c4aa79b864f0714c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97462ca897e3b5eeba9970fd1bc49278') in 0.033836 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CLUBS/2_heroes.blend
-  artifactKey: Guid(73264b75568fffe4fba81e4f983559a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/2_heroes.blend using Guid(73264b75568fffe4fba81e4f983559a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9ecb45ae20b256acf5c1fbd5862ab4') in 0.022219 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/CLUBS/2_Eredivisie.blend
-  artifactKey: Guid(5c5dbb287c0093b44a5f669e6501e3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/2_Eredivisie.blend using Guid(5c5dbb287c0093b44a5f669e6501e3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc4e383c6070fef5f0a72cdf1f70850') in 0.044897 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/CLUBS/2_LaLiga.blend
-  artifactKey: Guid(bd295b3862dd80d4d9060c8589421b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/2_LaLiga.blend using Guid(bd295b3862dd80d4d9060c8589421b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91669718425dab84dde15fca4fecdc78') in 0.043919 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 149.799257 seconds.
-  path: Assets/CLUBS/Bundesliga.blend
-  artifactKey: Guid(f059f36b53089184381c0c3a03e0773c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Bundesliga.blend using Guid(f059f36b53089184381c0c3a03e0773c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574e2153011ba6d89a318a47cda0bc12') in 0.058503 seconds 
-Number of asset objects unloaded after import = 7
+Start importing Assets/CLUBS/Materials/EPL.mat using Guid(668045e053dd7c442a5368be8561f7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5974228c3636c3986a6560d7ecc78643') in 0.207447 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000045 seconds.
-  path: Assets/CLUBS/LigaPortugal.blend
-  artifactKey: Guid(78d720281809e954eaa579962c7aeb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/CLUBS/Materials
+  artifactKey: Guid(45702c44afc075145957e20cd025eebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/LigaPortugal.blend using Guid(78d720281809e954eaa579962c7aeb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52edce8d2be164f32ee1d6af7a49ebdf') in 0.059986 seconds 
-Number of asset objects unloaded after import = 7
+Start importing Assets/CLUBS/Materials using Guid(45702c44afc075145957e20cd025eebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3e7ed93a857a63d2bde9a2bfd4df86') in 0.001971 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CLUBS/EPL.blend
-  artifactKey: Guid(e536513eb113a9341943d9501f80792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 4408.889222 seconds.
+  path: Assets/card.blend
+  artifactKey: Guid(ac942eec0d5a49344b613e7586dedab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/EPL.blend using Guid(e536513eb113a9341943d9501f80792c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a30bdee76d909a5cf55a33d7bf0370') in 0.055886 seconds 
-Number of asset objects unloaded after import = 7
+Start importing Assets/card.blend using Guid(ac942eec0d5a49344b613e7586dedab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377c8180463b83c76bb1d1b5c698b72b') in 0.349160 seconds 
+Number of asset objects unloaded after import = 57
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/CLUBS/SuperLig.blend
-  artifactKey: Guid(111aea3b041d7a34e9274985c4dc3031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000036 seconds.
+  path: Assets/cardGK.blend
+  artifactKey: Guid(f9ff9230ed9efdb4cad98ac3c4308944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/SuperLig.blend using Guid(111aea3b041d7a34e9274985c4dc3031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb39d900beecbf8f67e7b982ca0333f') in 0.078145 seconds 
-Number of asset objects unloaded after import = 7
+Start importing Assets/cardGK.blend using Guid(f9ff9230ed9efdb4cad98ac3c4308944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d796ad8fc5dbc304623fa033526accf') in 0.273765 seconds 
+Number of asset objects unloaded after import = 57
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/CLUBS/MLS.blend
-  artifactKey: Guid(e63ac30ca04899046858369fe374d854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000053 seconds.
+  path: Assets/cardBLACK.blend
+  artifactKey: Guid(7bfee3ee743917a409ba9470739fcae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/MLS.blend using Guid(e63ac30ca04899046858369fe374d854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916ad7709536b6f470d38e0082525ff6') in 0.050541 seconds 
-Number of asset objects unloaded after import = 7
+Start importing Assets/cardBLACK.blend using Guid(7bfee3ee743917a409ba9470739fcae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b17c84f7ef08b477d2700de8000863') in 0.252329 seconds 
+Number of asset objects unloaded after import = 57
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CLUBS/Ligue1.blend
-  artifactKey: Guid(bce8a39a75c9ec148957aee748d12732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000031 seconds.
+  path: Assets/cardGKIcon.blend
+  artifactKey: Guid(19e80a59b9086c64eb3311de15272095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Ligue1.blend using Guid(bce8a39a75c9ec148957aee748d12732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43b35206cd2e41927db52e1abf4fc2b') in 0.040799 seconds 
-Number of asset objects unloaded after import = 7
+Start importing Assets/cardGKIcon.blend using Guid(19e80a59b9086c64eb3311de15272095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd8c059adc370746679f8a50c65d61b') in 0.241121 seconds 
+Number of asset objects unloaded after import = 57
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CLUBS/heroes.blend
-  artifactKey: Guid(78290bda4f348b54399c474a0acbb6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000037 seconds.
+  path: Assets/cardGKBLACK.blend
+  artifactKey: Guid(7a243891cf867c248b421023a39a5f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/heroes.blend using Guid(78290bda4f348b54399c474a0acbb6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2415f6a6437f9cdd308eaf227a924a02') in 0.049706 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CLUBS/SeriaA.blend
-  artifactKey: Guid(48da84df8071fcf44a7632bba404e4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/SeriaA.blend using Guid(48da84df8071fcf44a7632bba404e4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beee795840efa01562d62fe4e0e84767') in 0.050379 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CLUBS/Eredivisie.blend
-  artifactKey: Guid(7ecc03a530d67a44981f8aef0d3ae964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Eredivisie.blend using Guid(7ecc03a530d67a44981f8aef0d3ae964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00caf1ca4d8f895b56c6b36c4485a3a7') in 0.053899 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/CLUBS/LaLiga.blend
-  artifactKey: Guid(390cb4bd661c78647b97bda565a3cd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/LaLiga.blend using Guid(390cb4bd661c78647b97bda565a3cd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da72bef1d486757dcfdf8c97aac494c8') in 0.045495 seconds 
-Number of asset objects unloaded after import = 7
+Start importing Assets/cardGKBLACK.blend using Guid(7a243891cf867c248b421023a39a5f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69097fdd70ab09e7def4c26d8090705a') in 0.248088 seconds 
+Number of asset objects unloaded after import = 57
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/CLUBS/icons.blend
-  artifactKey: Guid(96563b5546ebd8f4bb17bf7f4f4aeade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/cardGKheroes.blend
+  artifactKey: Guid(fc9e87f8ff94a2641b21a896c9601092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/icons.blend using Guid(96563b5546ebd8f4bb17bf7f4f4aeade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16228e7a09106590bd186076486ceca') in 0.041646 seconds 
-Number of asset objects unloaded after import = 7
+Start importing Assets/cardGKheroes.blend using Guid(fc9e87f8ff94a2641b21a896c9601092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dff3fd94b4792c14b96bf6fd67abd27') in 0.235780 seconds 
+Number of asset objects unloaded after import = 56
 ========================================================================
 Received Import Request.
-  Time since last request: 243.179330 seconds.
-  path: Assets/CLUBS/Bundesliga.png
-  artifactKey: Guid(2648e3603f6558b4da91373c880da818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000041 seconds.
+  path: Assets/cardHeroes.blend
+  artifactKey: Guid(cb6b82fbac361d443a0b1ef83b06b1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Bundesliga.png using Guid(2648e3603f6558b4da91373c880da818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ba31792c8995ddb004b37ae4917b9a') in 0.059162 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/cardHeroes.blend using Guid(cb6b82fbac361d443a0b1ef83b06b1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4cc3635c278efbbab1227bef9ad473') in 0.255453 seconds 
+Number of asset objects unloaded after import = 56
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CLUBS/EPL.png
-  artifactKey: Guid(6bb1871aa6c526946845641364d452f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000031 seconds.
+  path: Assets/cardIcon.blend
+  artifactKey: Guid(51ab1fcfaa5347a48bdca164fda56ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/EPL.png using Guid(6bb1871aa6c526946845641364d452f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b976099d8a3fbea8f7e1b82399acf2') in 0.017350 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/cardIcon.blend using Guid(51ab1fcfaa5347a48bdca164fda56ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0919a85f90e87961eea10b3b3f37dd') in 0.237731 seconds 
+Number of asset objects unloaded after import = 57
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/CLUBS/LigaPortugal.png
-  artifactKey: Guid(35b6ce5717e362e41ba932b74a5bff9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 6.587698 seconds.
+  path: Assets/card.blend1
+  artifactKey: Guid(5d7bb22977cfe044c9a4f4095414950d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/LigaPortugal.png using Guid(35b6ce5717e362e41ba932b74a5bff9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b42617659c84adc3b35ca90c71a9532a') in 0.017622 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/card.blend1 using Guid(5d7bb22977cfe044c9a4f4095414950d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c8f5b9ee4ac67dc746b9b0ecd2466f') in 0.005232 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CLUBS/Ligue1.png
-  artifactKey: Guid(2f36d95cc0902f54dad65450ba549caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 2.357762 seconds.
+  path: Assets/cardBLACK.blend1
+  artifactKey: Guid(a031b1491971db847a40f285b04099cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Ligue1.png using Guid(2f36d95cc0902f54dad65450ba549caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22912694dfc669ce949420c8f0f677e8') in 0.040210 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/cardBLACK.blend1 using Guid(a031b1491971db847a40f285b04099cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f45443365cbc567ced36b808a7b864f') in 0.002254 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CLUBS/LaLiga.png
-  artifactKey: Guid(f2bd55a5a1b4e8b46a122cfce62bb0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1.462179 seconds.
+  path: Assets/cardGK.blend1
+  artifactKey: Guid(6b8eb661441ad6148a3a446544463e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/LaLiga.png using Guid(f2bd55a5a1b4e8b46a122cfce62bb0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52c2ba2302061fe1b4c1468b24b2274') in 0.016651 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/cardGK.blend1 using Guid(6b8eb661441ad6148a3a446544463e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926b60ffe9521fdda7a215775951e4ff') in 0.002068 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/CLUBS/MLS.png
-  artifactKey: Guid(c5aef553848efe9419a5315c8aa0548c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1.221728 seconds.
+  path: Assets/cardGKBLACK.blend1
+  artifactKey: Guid(ae420a310f56d6c47ae7ae9e9507fa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/MLS.png using Guid(c5aef553848efe9419a5315c8aa0548c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71d3b57e782b4bc7b2255318ad83eac') in 0.017856 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/cardGKBLACK.blend1 using Guid(ae420a310f56d6c47ae7ae9e9507fa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17d59b59fb69fc1f8af5ec95c6a306b') in 0.002452 seconds 
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/CLUBS/Eredivisie.png
-  artifactKey: Guid(c75997f6a2677a74582fbb37861068ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 17.143737 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Eredivisie.png using Guid(c75997f6a2677a74582fbb37861068ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bbc249c2d6156892a0b88b3213ef77') in 0.022423 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Scenes/Menu.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbecb1e8e88bd8f1c75c1edd6e04824') in 0.001891 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/CLUBS/heroes.png
-  artifactKey: Guid(958e31faa227f854b91888ec8b519df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 148.470085 seconds.
+  path: Assets/fut masters.csv
+  artifactKey: Guid(9493cf991a024dc45a55a5dd040b568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/heroes.png using Guid(958e31faa227f854b91888ec8b519df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ec2229b1acf9e340c0a413ec44edb9') in 0.030386 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/CLUBS/SuperLig.png
-  artifactKey: Guid(4dd5755031a066a42959433b4792a831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/SuperLig.png using Guid(4dd5755031a066a42959433b4792a831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd503e5bab46e5081477ffefe2504194f') in 0.018993 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/CLUBS/SeriaA.png
-  artifactKey: Guid(0e579a0954aeea244a4405880a69d438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/SeriaA.png using Guid(0e579a0954aeea244a4405880a69d438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddeb5973c311adf903b8ce4f69f1e02d') in 0.021689 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/CLUBS/icons.png
-  artifactKey: Guid(ade057e6b7b5f3e4e81c1fcfd49f8ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/icons.png using Guid(ade057e6b7b5f3e4e81c1fcfd49f8ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4c18e61829fe983ee6fbe6316d8998') in 0.024303 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/fut masters.csv using Guid(9493cf991a024dc45a55a5dd040b568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c9a0d4c10e46a1862caed40372ece0') in 0.006604 seconds 
+Number of asset objects unloaded after import = 1
