@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2022.2/release' branch; Version is '2022.2.1f1 (4fead5835099) revision 5237461'; Using compiler version '192829333'; Build Type 'Release'
+Built from '2022.2/release' branch; Version is '2022.2.2f1 (c93c5d3acf5b) revision 13188189'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 16258 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.2.1f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.2.2f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,7 +15,7 @@ C:/Users/Дима/Documents/GitHub/DDfut
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54155
+63610
 Successfully changed project path to: C:/Users/Дима/Documents/GitHub/DDfut
 C:/Users/Дима/Documents/GitHub/DDfut
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,14 +47,14 @@ C:/Users/Дима/Documents/GitHub/DDfut
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1344] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 4075302828 [EditorId] 4075302828 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D8CQGBP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7212] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 72012165 [EditorId] 72012165 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D8CQGBP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1344] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 4075302828 [EditorId] 4075302828 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D8CQGBP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7212] Host "[IP] 192.168.1.33 [Port] 0 [Flags] 2 [Guid] 72012165 [EditorId] 72012165 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-D8CQGBP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 9.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 16.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2022.2.1f1 (4fead5835099)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 2022.2.2f1 (c93c5d3acf5b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.2.2f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Дима/Documents/GitHub/DDfut/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
@@ -64,44 +64,44 @@ Direct3D:
     VRAM:     128 MB
     Driver:   10.18.10.5161
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011081 seconds.
-- Loaded All Assemblies, in  0.549 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008503 seconds.
+- Loaded All Assemblies, in  2.283 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.513 seconds
+- Finished resetting the current domain, in  2.499 seconds
 Domain Reload Profiling:
-	ReloadAssembly (301ms)
-		BeginReloadAssembly (110ms)
+	ReloadAssembly (996ms)
+		BeginReloadAssembly (530ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (107ms)
+			LoadAssemblies (526ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (240ms)
-				TypeCache.Initialize (239ms)
-					TypeCache.ScanAssembly (236ms)
+			SetupTypeCache (1251ms)
+				TypeCache.Initialize (1250ms)
+					TypeCache.ScanAssembly (1247ms)
 				ResolveRequiredComponents (1ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (413ms)
+			SetupLoadedEditorAssemblies (1934ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (13ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (42ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (303ms)
-				ProcessInitializeOnLoadMethodAttributes (79ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (1567ms)
+				ProcessInitializeOnLoadMethodAttributes (283ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,50 +109,50 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Дима\Documents\GitHub\DDfut\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Дима\Documents\GitHub\DDfut\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.107 seconds
-Refreshing native plugins compatible for Editor in 3.89 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\Дима\Documents\GitHub\DDfut\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Дима\Documents\GitHub\DDfut\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.931 seconds
+Refreshing native plugins compatible for Editor in 21.64 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.860 seconds
+- Finished resetting the current domain, in  2.360 seconds
 Domain Reload Profiling:
-	ReloadAssembly (331ms)
-		BeginReloadAssembly (178ms)
+	ReloadAssembly (1020ms)
+		BeginReloadAssembly (444ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (45ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		LoadAllAssembliesAndSetupDomain (773ms)
-			LoadAssemblies (116ms)
+			CreateAndSetChildDomain (69ms)
+		LoadAllAssembliesAndSetupDomain (1893ms)
+			LoadAssemblies (263ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (732ms)
-				TypeCache.Initialize (425ms)
-					TypeCache.ScanAssembly (418ms)
-				ResolveRequiredComponents (7ms)
+			SetupTypeCache (1771ms)
+				TypeCache.Initialize (1005ms)
+					TypeCache.ScanAssembly (992ms)
+				ResolveRequiredComponents (22ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (594ms)
+			SetupLoadedEditorAssemblies (1731ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (12ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (39ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (102ms)
-				ProcessInitializeOnLoadAttributes (418ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (209ms)
+				ProcessInitializeOnLoadAttributes (1239ms)
+				ProcessInitializeOnLoadMethodAttributes (198ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.63 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (16ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 5.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3465 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (68.0 KB). Loaded Objects now: 3927.
+Unloading 3487 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (67.9 KB). Loaded Objects now: 3950.
 Memory consumption went from 0.53 GB to 0.53 GB.
-Total: 5.883000 ms (FindLiveObjects: 0.539400 ms CreateObjectMapping: 0.979000 ms MarkObjects: 4.208800 ms  DeleteObjects: 0.153400 ms)
+Total: 104.502400 ms (FindLiveObjects: 0.640000 ms CreateObjectMapping: 36.192600 ms MarkObjects: 67.179300 ms  DeleteObjects: 0.487300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -167,129 +167,681 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 5760.174229 seconds.
-  path: Assets/CLUBS/Materials/EPL.mat
-  artifactKey: Guid(668045e053dd7c442a5368be8561f7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 10456.293869 seconds.
+  path: Assets/CARDS/JORGINHO.fbx
+  artifactKey: Guid(0b36a899b17746b47aab7ca70e5f5451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Materials/EPL.mat using Guid(668045e053dd7c442a5368be8561f7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5974228c3636c3986a6560d7ecc78643') in 0.207447 seconds 
+Start importing Assets/CARDS/JORGINHO.fbx using Guid(0b36a899b17746b47aab7ca70e5f5451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4344c41d95e24d08e3bb54ec5a2200e9') in 2.164951 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CARDS/CAMPOS.fbx
+  artifactKey: Guid(21226b519859bff4683edcc080d73374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/CAMPOS.fbx using Guid(21226b519859bff4683edcc080d73374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323ac6129df834467c2ec4d6436dd048') in 0.978648 seconds 
+Number of asset objects unloaded after import = 66
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CARDS/CARRASCO.fbx
+  artifactKey: Guid(2259a1be517866a4386e1fb8ba0533d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/CARRASCO.fbx using Guid(2259a1be517866a4386e1fb8ba0533d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d91ff43b7d3fff74799bdcfffedc182') in 0.862470 seconds 
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CARDS/COMAN.fbx
+  artifactKey: Guid(c11a43431b55cc2428c226cf04d1442b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/COMAN.fbx using Guid(c11a43431b55cc2428c226cf04d1442b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abafb8ab9af634cb967f55df6470df5f') in 0.709100 seconds 
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CARDS/CALHANOGLU.fbx
+  artifactKey: Guid(1c2f1829fe4918e43a43bf3b3545b824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/CALHANOGLU.fbx using Guid(1c2f1829fe4918e43a43bf3b3545b824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1acefc097555e4599c19d4ec38bcdb55') in 0.786762 seconds 
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CARDS/CASEMIRO.fbx
+  artifactKey: Guid(a8d3dea30179b6a4c9dd1b8108376039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/CASEMIRO.fbx using Guid(a8d3dea30179b6a4c9dd1b8108376039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc49cb17e69bb922360239ca7f43491b') in 0.985403 seconds 
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CARDS/CANCELO.fbx
+  artifactKey: Guid(74547a3af7d994b43aa04e8b1c4987c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/CANCELO.fbx using Guid(74547a3af7d994b43aa04e8b1c4987c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ff4043eb6452a5e288ede344ffbea8') in 0.794862 seconds 
+Number of asset objects unloaded after import = 67
+========================================================================
+Received Import Request.
+  Time since last request: 10.377695 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e266dc9f7c4f134594409dd45f6aba9') in 0.160335 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/CLUBS/Materials
-  artifactKey: Guid(45702c44afc075145957e20cd025eebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/CLUBS/Materials using Guid(45702c44afc075145957e20cd025eebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3e7ed93a857a63d2bde9a2bfd4df86') in 0.001971 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '142ef851b63714f34da83b102688c59c') in 0.097177 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 4408.889222 seconds.
-  path: Assets/card.blend
-  artifactKey: Guid(ac942eec0d5a49344b613e7586dedab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/card.blend using Guid(ac942eec0d5a49344b613e7586dedab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377c8180463b83c76bb1d1b5c698b72b') in 0.349160 seconds 
-Number of asset objects unloaded after import = 57
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5473a7c9275676e1718a725ee1526c') in 0.078600 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/cardGK.blend
-  artifactKey: Guid(f9ff9230ed9efdb4cad98ac3c4308944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000047 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
+  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/cardGK.blend using Guid(f9ff9230ed9efdb4cad98ac3c4308944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d796ad8fc5dbc304623fa033526accf') in 0.273765 seconds 
-Number of asset objects unloaded after import = 57
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a8538e266c4c9bb579eb77c529f1850') in 0.511630 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/cardBLACK.blend
-  artifactKey: Guid(7bfee3ee743917a409ba9470739fcae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000022 seconds.
+  path: Assets/PHOTOS/JOAO FELIX.png
+  artifactKey: Guid(e745b063cdb178f44b1a1fe170ffd98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/cardBLACK.blend using Guid(7bfee3ee743917a409ba9470739fcae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b17c84f7ef08b477d2700de8000863') in 0.252329 seconds 
-Number of asset objects unloaded after import = 57
+Start importing Assets/PHOTOS/JOAO FELIX.png using Guid(e745b063cdb178f44b1a1fe170ffd98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34304978c5de44754d532b79cd2b54a7') in 0.023760 seconds 
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/cardGKIcon.blend
-  artifactKey: Guid(19e80a59b9086c64eb3311de15272095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000606 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/cardGKIcon.blend using Guid(19e80a59b9086c64eb3311de15272095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd8c059adc370746679f8a50c65d61b') in 0.241121 seconds 
-Number of asset objects unloaded after import = 57
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23b49acc48f389ae2248e63ca099ace7') in 0.349829 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06eaa4acc02b411e78489f7913b73cc9') in 0.208356 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 78.247260 seconds.
+  path: Assets/CARDS/YASHIN128.fbx
+  artifactKey: Guid(9b511d6099e6b154aac45f3d7998f04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/YASHIN128.fbx using Guid(9b511d6099e6b154aac45f3d7998f04a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '672021ee53426a72e93522b7d9a198c0') in 2.006844 seconds 
+Number of asset objects unloaded after import = 112
 ========================================================================
 Received Import Request.
   Time since last request: 0.000037 seconds.
-  path: Assets/cardGKBLACK.blend
-  artifactKey: Guid(7a243891cf867c248b421023a39a5f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/CARDS/YASHIN129.fbx
+  artifactKey: Guid(e500916ead3728548ad27e1afb7faedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/cardGKBLACK.blend using Guid(7a243891cf867c248b421023a39a5f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69097fdd70ab09e7def4c26d8090705a') in 0.248088 seconds 
-Number of asset objects unloaded after import = 57
+Start importing Assets/CARDS/YASHIN129.fbx using Guid(e500916ead3728548ad27e1afb7faedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98eab19d6820756a42eb6142fba3baa6') in 1.369171 seconds 
+Number of asset objects unloaded after import = 112
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/cardGKheroes.blend
-  artifactKey: Guid(fc9e87f8ff94a2641b21a896c9601092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 651.401321 seconds.
+  path: Assets/CARDS/ABEDI PELE.fbx
+  artifactKey: Guid(7b0c7cb6607d3824bb3d66631f539f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/cardGKheroes.blend using Guid(fc9e87f8ff94a2641b21a896c9601092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dff3fd94b4792c14b96bf6fd67abd27') in 0.235780 seconds 
-Number of asset objects unloaded after import = 56
+Start importing Assets/CARDS/ABEDI PELE.fbx using Guid(7b0c7cb6607d3824bb3d66631f539f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b658a53216d1312a3a955f9c9da0a128') in 0.761915 seconds 
+Number of asset objects unloaded after import = 111
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/cardHeroes.blend
-  artifactKey: Guid(cb6b82fbac361d443a0b1ef83b06b1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000042 seconds.
+  path: Assets/CARDS/ASPAS.fbx
+  artifactKey: Guid(37e0e4d80fbdae143af56c74e197a515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/cardHeroes.blend using Guid(cb6b82fbac361d443a0b1ef83b06b1ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4cc3635c278efbbab1227bef9ad473') in 0.255453 seconds 
-Number of asset objects unloaded after import = 56
+Start importing Assets/CARDS/ASPAS.fbx using Guid(37e0e4d80fbdae143af56c74e197a515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9a48d29f3d4a87f88303e0a65d71ca') in 0.905625 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/CARDS/DEMPSEY.fbx
+  artifactKey: Guid(88e7f93cb9d375b458932933fddddd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/DEMPSEY.fbx using Guid(88e7f93cb9d375b458932933fddddd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd355c250b8504323a4f0c58e30e1a830') in 0.906448 seconds 
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CARDS/BARELLA.fbx
+  artifactKey: Guid(013b720dcaaa0624db9380738557970d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/BARELLA.fbx using Guid(013b720dcaaa0624db9380738557970d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '093c69ac7e2558f7a4214b0c84577529') in 1.025990 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/CARDS/ALISSON.fbx
+  artifactKey: Guid(d53a4df13125fd14ab4f95119e93346a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/ALISSON.fbx using Guid(d53a4df13125fd14ab4f95119e93346a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '641ff50117c33b42ba1c99021a7382b0') in 0.918097 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/CARDS/BROZOVIC.fbx
+  artifactKey: Guid(b3fc9eaa59385174aafebd4495415d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/BROZOVIC.fbx using Guid(b3fc9eaa59385174aafebd4495415d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747aad1c4956e67fdbac64f1051e7fe5') in 0.900598 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CARDS/BALE.fbx
+  artifactKey: Guid(45e0efb4ea628e6408eb7f2733fd7a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/BALE.fbx using Guid(45e0efb4ea628e6408eb7f2733fd7a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db0109aa9dccd9eea6999bb7678ac6b') in 1.112650 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CARDS/DE JONG.fbx
+  artifactKey: Guid(84122d9ed43655e4e8271678dc183b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/DE JONG.fbx using Guid(84122d9ed43655e4e8271678dc183b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47df2190db5a7c2e9867441a9099feff') in 0.891606 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CARDS/AUBAMEYANG.fbx
+  artifactKey: Guid(08f01213014099e4cb181adbced65976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/AUBAMEYANG.fbx using Guid(08f01213014099e4cb181adbced65976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f88affdf37fa8f70b1c8b5ed568fd4') in 0.922175 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CARDS/CAMPOS.fbx
+  artifactKey: Guid(21226b519859bff4683edcc080d73374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/CAMPOS.fbx using Guid(21226b519859bff4683edcc080d73374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9668df8720602cc12c2ef59062f3bec') in 1.120120 seconds 
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CARDS/BEN YEDDER.fbx
+  artifactKey: Guid(48fb0183dbd975449a1f442551eb6cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/BEN YEDDER.fbx using Guid(48fb0183dbd975449a1f442551eb6cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be83d52dd0fc93641a961049dfd02478') in 1.177774 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/CARDS/BOUNOU.fbx
+  artifactKey: Guid(651674a0f3b9dda4db69f56889025273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/BOUNOU.fbx using Guid(651674a0f3b9dda4db69f56889025273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56afa7f6d9ad25a5b1fc4d864b914aa') in 1.299612 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CARDS/CARRASCO.fbx
+  artifactKey: Guid(2259a1be517866a4386e1fb8ba0533d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/CARRASCO.fbx using Guid(2259a1be517866a4386e1fb8ba0533d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9beee10a35184cf2264c8c6ea40b8e3') in 1.250473 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CARDS/BELLINGHAM.fbx
+  artifactKey: Guid(76d8de39fa8becf428ddd291f995b1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/BELLINGHAM.fbx using Guid(76d8de39fa8becf428ddd291f995b1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644fdca807c9242e42fb29c50cca967c') in 1.162860 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CARDS/ALEXANDER-ARNOLD.fbx
+  artifactKey: Guid(498cf847e9e8c7b43886e3a4a777d612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/ALEXANDER-ARNOLD.fbx using Guid(498cf847e9e8c7b43886e3a4a777d612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8421d8a6190fd0f506151b6b0432607b') in 1.417427 seconds 
+Number of asset objects unloaded after import = 112
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/cardIcon.blend
-  artifactKey: Guid(51ab1fcfaa5347a48bdca164fda56ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/CARDS/BRUNO FERNANDES.fbx
+  artifactKey: Guid(fb1a5be4bacaa2d4d9a528b200baddbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/cardIcon.blend using Guid(51ab1fcfaa5347a48bdca164fda56ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0919a85f90e87961eea10b3b3f37dd') in 0.237731 seconds 
-Number of asset objects unloaded after import = 57
+Start importing Assets/CARDS/BRUNO FERNANDES.fbx using Guid(fb1a5be4bacaa2d4d9a528b200baddbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cac1d49cb78459b67a935e8b1d56603') in 1.244138 seconds 
+Number of asset objects unloaded after import = 112
 ========================================================================
 Received Import Request.
-  Time since last request: 6.587698 seconds.
-  path: Assets/card.blend1
-  artifactKey: Guid(5d7bb22977cfe044c9a4f4095414950d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000044 seconds.
+  path: Assets/CARDS/COMAN.fbx
+  artifactKey: Guid(c11a43431b55cc2428c226cf04d1442b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/card.blend1 using Guid(5d7bb22977cfe044c9a4f4095414950d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c8f5b9ee4ac67dc746b9b0ecd2466f') in 0.005232 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/CARDS/COMAN.fbx using Guid(c11a43431b55cc2428c226cf04d1442b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60dd4f0e89093941bc9a4860ec44cee8') in 1.404799 seconds 
+Number of asset objects unloaded after import = 112
 ========================================================================
 Received Import Request.
-  Time since last request: 2.357762 seconds.
-  path: Assets/cardBLACK.blend1
-  artifactKey: Guid(a031b1491971db847a40f285b04099cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000032 seconds.
+  path: Assets/CARDS/DAVIES.fbx
+  artifactKey: Guid(de0a6f5195c79c648843210820fdb442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/cardBLACK.blend1 using Guid(a031b1491971db847a40f285b04099cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f45443365cbc567ced36b808a7b864f') in 0.002254 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/CARDS/DAVIES.fbx using Guid(de0a6f5195c79c648843210820fdb442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09622fdb716808d030485c1d5c4a7d96') in 1.417880 seconds 
+Number of asset objects unloaded after import = 112
 ========================================================================
 Received Import Request.
-  Time since last request: 1.462179 seconds.
-  path: Assets/cardGK.blend1
-  artifactKey: Guid(6b8eb661441ad6148a3a446544463e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000045 seconds.
+  path: Assets/CARDS/FODEN.fbx
+  artifactKey: Guid(d38a9040056aeb840a7aa917e01ebbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/cardGK.blend1 using Guid(6b8eb661441ad6148a3a446544463e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926b60ffe9521fdda7a215775951e4ff') in 0.002068 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/CARDS/FODEN.fbx using Guid(d38a9040056aeb840a7aa917e01ebbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a13283f327d5ad3f4090e677a9039c') in 1.444326 seconds 
+Number of asset objects unloaded after import = 112
 ========================================================================
 Received Import Request.
-  Time since last request: 1.221728 seconds.
-  path: Assets/cardGKBLACK.blend1
-  artifactKey: Guid(ae420a310f56d6c47ae7ae9e9507fa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000048 seconds.
+  path: Assets/CARDS/FABINHO.fbx
+  artifactKey: Guid(f4af5702f4eb92a458407d7fc255f89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/cardGKBLACK.blend1 using Guid(ae420a310f56d6c47ae7ae9e9507fa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17d59b59fb69fc1f8af5ec95c6a306b') in 0.002452 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/CARDS/FABINHO.fbx using Guid(f4af5702f4eb92a458407d7fc255f89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e0f0a720abbc52ee0664277d55fcc0') in 0.841742 seconds 
+Number of asset objects unloaded after import = 112
 ========================================================================
 Received Import Request.
-  Time since last request: 17.143737 seconds.
-  path: Assets/Scenes/Menu.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000142 seconds.
+  path: Assets/CARDS/GUNDOGAN.fbx
+  artifactKey: Guid(769d31555718ab343b6509da5c8e64bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Menu.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bbecb1e8e88bd8f1c75c1edd6e04824') in 0.001891 seconds 
-Number of asset objects unloaded after import = 0
+Start importing Assets/CARDS/GUNDOGAN.fbx using Guid(769d31555718ab343b6509da5c8e64bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c481bc74dc1587f5cb89e5da2adfeb05') in 1.141557 seconds 
+Number of asset objects unloaded after import = 112
 ========================================================================
 Received Import Request.
-  Time since last request: 148.470085 seconds.
-  path: Assets/fut masters.csv
-  artifactKey: Guid(9493cf991a024dc45a55a5dd040b568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000028 seconds.
+  path: Assets/CARDS/DZEKO.fbx
+  artifactKey: Guid(3b298fe5827dfe14a83971d8e89e1e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/fut masters.csv using Guid(9493cf991a024dc45a55a5dd040b568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c9a0d4c10e46a1862caed40372ece0') in 0.006604 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/CARDS/DZEKO.fbx using Guid(3b298fe5827dfe14a83971d8e89e1e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a818b832675b6f38385a8d2ed92147') in 1.367499 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CARDS/GIMENEZ.fbx
+  artifactKey: Guid(b7434516dd22f1c49a8e7d6828c03228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/GIMENEZ.fbx using Guid(b7434516dd22f1c49a8e7d6828c03228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf24e43ac55ebdbc23dc699f0c7a0220') in 1.137915 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CARDS/CORONA.fbx
+  artifactKey: Guid(bdabb7fa9394a664b98deb46f7fbda87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/CORONA.fbx using Guid(bdabb7fa9394a664b98deb46f7fbda87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb6f84261377766f5f177f1b64cde30') in 1.248064 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.001803 seconds.
+  path: Assets/CARDS/GOLOVIN.fbx
+  artifactKey: Guid(2516209ff24a8694db7d7f639f1d3df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/GOLOVIN.fbx using Guid(2516209ff24a8694db7d7f639f1d3df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b205dbc2b436aa449e4b79d178253735') in 1.280712 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CARDS/CALHANOGLU.fbx
+  artifactKey: Guid(1c2f1829fe4918e43a43bf3b3545b824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/CALHANOGLU.fbx using Guid(1c2f1829fe4918e43a43bf3b3545b824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37ef3f97aeeeef774c4893c2c303b70') in 1.504927 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CARDS/BENZEMA.fbx
+  artifactKey: Guid(c449873b7f080a846b41cedb6df0b0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/BENZEMA.fbx using Guid(c449873b7f080a846b41cedb6df0b0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3753c19cf3f0202edd9ebadfded853a6') in 1.224202 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/CARDS/DYBALA.fbx
+  artifactKey: Guid(8c16bb0fe91c1314dba1211fd6ec34c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/DYBALA.fbx using Guid(8c16bb0fe91c1314dba1211fd6ec34c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5e68077e36bd8bd66fdc07377b1a70') in 1.196785 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CARDS/BERNARDO SILVA.fbx
+  artifactKey: Guid(deaf3423bb15f444295bee5b26f90d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/BERNARDO SILVA.fbx using Guid(deaf3423bb15f444295bee5b26f90d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fe1d6ce179e2fce6b4d16047ec9b0f') in 1.330271 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CARDS/COURTOIS.fbx
+  artifactKey: Guid(52c0d39acacb58646af834d59942b969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/COURTOIS.fbx using Guid(52c0d39acacb58646af834d59942b969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5d21af41dbed387483565ecabcf20c') in 1.227768 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CARDS/DIOGO JOTA.fbx
+  artifactKey: Guid(84ac113c523a50b48aafd221262a9782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/DIOGO JOTA.fbx using Guid(84ac113c523a50b48aafd221262a9782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43bcb964726ee229d465300239f981d') in 1.502103 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CARDS/GORETZKA.fbx
+  artifactKey: Guid(ff3d203b5589ded46be7fb8259877db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/GORETZKA.fbx using Guid(ff3d203b5589ded46be7fb8259877db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ddb0caf3d50fc3339602fdddf1ceb4') in 1.044719 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CARDS/DE BRUYNE.fbx
+  artifactKey: Guid(5ce3851ff46633d47b9ab9bfd7526637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/DE BRUYNE.fbx using Guid(5ce3851ff46633d47b9ab9bfd7526637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6978cd0f3b5b152d0ac7cc42d4b47f1d') in 1.073638 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CARDS/DEPAY.fbx
+  artifactKey: Guid(ccbacb1b55f90164588662b88b3f8c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/DEPAY.fbx using Guid(ccbacb1b55f90164588662b88b3f8c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5abffa41a443ed26e8f38d7b6ebc43d4') in 0.759655 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CARDS/EDERSON.fbx
+  artifactKey: Guid(3039efaf6d559574a8246fe27a69c523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/EDERSON.fbx using Guid(3039efaf6d559574a8246fe27a69c523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b55390cb16595de1e5074c2baf6af88') in 0.763372 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CARDS/GREALISH.fbx
+  artifactKey: Guid(ec3e6b70683d0694fb73858963c9ee87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/GREALISH.fbx using Guid(ec3e6b70683d0694fb73858963c9ee87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0267d962eb64eac2da3340af02bc8320') in 0.468009 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CARDS/FORLAN.fbx
+  artifactKey: Guid(e30711f01db6a7b428f21c4d45104f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/FORLAN.fbx using Guid(e30711f01db6a7b428f21c4d45104f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7c61392cfe0cce66376e929f9f1a67') in 0.456583 seconds 
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CARDS/GNABRY.fbx
+  artifactKey: Guid(b3cad0bda98c8ca4099433a8d5dcbe3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/GNABRY.fbx using Guid(b3cad0bda98c8ca4099433a8d5dcbe3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ab9b2f3874356b0bac3349ed745af7') in 0.667030 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CARDS/DONNARUMMA.fbx
+  artifactKey: Guid(92eeae7b9929e37418e46d979ca60e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/DONNARUMMA.fbx using Guid(92eeae7b9929e37418e46d979ca60e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0feda61b546433e5009c9493de09320c') in 0.466745 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CARDS/DE GEA.fbx
+  artifactKey: Guid(6f6bc6106450daf429f2006dbe870d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/DE GEA.fbx using Guid(6f6bc6106450daf429f2006dbe870d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105777cbb1140929305c394ecbcd0e80') in 0.777354 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CARDS/FEKIR.fbx
+  artifactKey: Guid(6026ac3315f504744afe1c37cc830336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/FEKIR.fbx using Guid(6026ac3315f504744afe1c37cc830336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b84c54fb857cc1621cf7e28cf470dc6') in 0.667145 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CARDS/CASEMIRO.fbx
+  artifactKey: Guid(a8d3dea30179b6a4c9dd1b8108376039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/CASEMIRO.fbx using Guid(a8d3dea30179b6a4c9dd1b8108376039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5259f0e5f01ef81639695c56c688630a') in 1.456516 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CARDS/AMRABAT.fbx
+  artifactKey: Guid(451ec82802802d2448d706a571ad25de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/AMRABAT.fbx using Guid(451ec82802802d2448d706a571ad25de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d43da37e98ce773dc5b1267fb2e96c1') in 0.935761 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CARDS/ARAUJO.fbx
+  artifactKey: Guid(4060e2bca64c7514e860af9321240d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/ARAUJO.fbx using Guid(4060e2bca64c7514e860af9321240d49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0ae1f8fe7bca567e4fc23bd6303cf0') in 0.679286 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CARDS/HAALAND.fbx
+  artifactKey: Guid(b44283d23fd2a89408d60655c186b8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/HAALAND.fbx using Guid(b44283d23fd2a89408d60655c186b8b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bbe206676d3b26de721f84ef2488692') in 0.975815 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/CARDS/CANCELO.fbx
+  artifactKey: Guid(74547a3af7d994b43aa04e8b1c4987c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/CANCELO.fbx using Guid(74547a3af7d994b43aa04e8b1c4987c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997d2d9f4c5260c472039465c7c712af') in 0.633404 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/CARDS/ACUNA.fbx
+  artifactKey: Guid(ac1c3575a3858ad4e82468fbd8056b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/ACUNA.fbx using Guid(ac1c3575a3858ad4e82468fbd8056b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da423ff75eee0035a19986805cf01ec3') in 0.704551 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CARDS/DE LIGT.fbx
+  artifactKey: Guid(19cfb73cd405d024b92ddebe954ecb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/DE LIGT.fbx using Guid(19cfb73cd405d024b92ddebe954ecb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff3b0c8e7dcf1ec8bce3902242c17b4') in 0.763266 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CARDS/GULACSI.fbx
+  artifactKey: Guid(095f015dd6464b14a811291531a98a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/GULACSI.fbx using Guid(095f015dd6464b14a811291531a98a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '691797864971b53eb50660ec78d740d5') in 0.690454 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CARDS/HAKIMI.fbx
+  artifactKey: Guid(103199c0fd04d904392f917cf0705922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/HAKIMI.fbx using Guid(103199c0fd04d904392f917cf0705922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614c33003b5ce1ff8efc16be3c4f5c50') in 0.562183 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CARDS/ALABA.fbx
+  artifactKey: Guid(269c8a4b5ee3c0d49aa18d389e59fcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/ALABA.fbx using Guid(269c8a4b5ee3c0d49aa18d389e59fcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f65d50e97ca763f4ccfdcb5e8196f5') in 0.528005 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 451.618748 seconds.
+  path: Assets/CARDS/HRADECKY.fbx
+  artifactKey: Guid(ca61ac57f69065a4e8ffc30134dec643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/HRADECKY.fbx using Guid(ca61ac57f69065a4e8ffc30134dec643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a3c82f0e78afc06d21661257918368') in 1.143635 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CARDS/IMMOBILE.fbx
+  artifactKey: Guid(a69a0bffb51cb5440953bed7fb290ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/IMMOBILE.fbx using Guid(a69a0bffb51cb5440953bed7fb290ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc29b21140762e215aabb1144a85dba') in 0.778266 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CARDS/JIMENEZ.fbx
+  artifactKey: Guid(d7fecd5de4d009d47bcb37d60661b972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/JIMENEZ.fbx using Guid(d7fecd5de4d009d47bcb37d60661b972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa96e19beab60985eb4d2e1984ca8dd') in 0.745806 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/CARDS/JORGINHO.fbx
+  artifactKey: Guid(0b36a899b17746b47aab7ca70e5f5451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/JORGINHO.fbx using Guid(0b36a899b17746b47aab7ca70e5f5451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb946810e0215928ad30dd93c9c668a7') in 0.671851 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CARDS/JORDI ALBA.fbx
+  artifactKey: Guid(261d5c67de623ff409814a4d9e80d415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/JORDI ALBA.fbx using Guid(261d5c67de623ff409814a4d9e80d415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51cab85f65860e1baab0950a55627a1') in 0.745973 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CARDS/JAMES.fbx
+  artifactKey: Guid(47bb902908ec76540a0955cbec4c14bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/JAMES.fbx using Guid(47bb902908ec76540a0955cbec4c14bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e055796944f4f1c9dd12dcf999ea01cc') in 0.870672 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CARDS/KOSTIC.fbx
+  artifactKey: Guid(5ebd32c1278746440b323b6d2c8bdaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/KOSTIC.fbx using Guid(5ebd32c1278746440b323b6d2c8bdaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea01500de5e18b8ba5a0a69107fe957') in 0.809835 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CARDS/IBRAHIMOVIC.fbx
+  artifactKey: Guid(7bc875acac3de604bb68064faff1e6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/IBRAHIMOVIC.fbx using Guid(7bc875acac3de604bb68064faff1e6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff6eda8390eea169d299c71dc940667') in 0.860183 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CARDS/JOAO FELIX.fbx
+  artifactKey: Guid(289e654d9e51d8d4dba36b50a088fb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/JOAO FELIX.fbx using Guid(289e654d9e51d8d4dba36b50a088fb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a370856008bbaa06e89db4c61cd0460') in 1.688074 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CARDS/KEANE.fbx
+  artifactKey: Guid(12688373ab9ee294c96b6668f0023902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/KEANE.fbx using Guid(12688373ab9ee294c96b6668f0023902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b591a08eb4b2540b3b8beb73ab596f7') in 1.587755 seconds 
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CARDS/KEWELL.fbx
+  artifactKey: Guid(e949cf4d44154e541bdb8e8f06207d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/KEWELL.fbx using Guid(e949cf4d44154e541bdb8e8f06207d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486ee944e33483e63157d7418f3d27ca') in 1.694499 seconds 
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/CARDS/KANTE.fbx
+  artifactKey: Guid(796934c40053cb8418c7b8cb24705961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/KANTE.fbx using Guid(796934c40053cb8418c7b8cb24705961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db237b515edc897d784d21be4be2df8e') in 1.297282 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CARDS/KULUSEVSKI.fbx
+  artifactKey: Guid(5a2ca25eefee3844483fbcce96a99d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/KULUSEVSKI.fbx using Guid(5a2ca25eefee3844483fbcce96a99d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0c5250ea3c03bf6e0c724bd01fecee') in 1.027261 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CARDS/ISAK.fbx
+  artifactKey: Guid(7b51d2aceda741e4cb9a9f0ebdfd3883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/ISAK.fbx using Guid(7b51d2aceda741e4cb9a9f0ebdfd3883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1966d451b13cf62979464dc42971905') in 0.853846 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CARDS/KROOS.fbx
+  artifactKey: Guid(78612d8c78eeeef4f8197ba7555d52e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/KROOS.fbx using Guid(78612d8c78eeeef4f8197ba7555d52e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6b2f3cb99696eee0dd7ac3daf83835d') in 1.008483 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CARDS/KANE.fbx
+  artifactKey: Guid(552825b61a1e8b343bf8e016f334e739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/KANE.fbx using Guid(552825b61a1e8b343bf8e016f334e739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e971a0bc003dcb3bbdb6f4e2316a7a21') in 1.362443 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CARDS/KOULIBALY.fbx
+  artifactKey: Guid(4dc83f4dae2bd564d9da91626d4e63fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/KOULIBALY.fbx using Guid(4dc83f4dae2bd564d9da91626d4e63fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45bc6e5f1bd85c3a386e89f84b96d65b') in 1.594384 seconds 
+Number of asset objects unloaded after import = 112
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CARDS/KIMMICH.fbx
+  artifactKey: Guid(ae05013447828874e80ce423484de769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/CARDS/KIMMICH.fbx using Guid(ae05013447828874e80ce423484de769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b627b84ec3c0a3e5afea0ffc64f542') in 1.924413 seconds 
+Number of asset objects unloaded after import = 112
