@@ -1,0 +1,21 @@
+using UnityEngine;
+using UnityEngine.EventSystems;
+
+public class ClickPACKS : MonoBehaviour
+{
+    public GameObject Camera;
+    public void OnMouseDown()
+    {
+        Camera.transform.position = Camera.transform.position + Vector3.up * 10f;
+    }
+
+    void Start()
+    {
+        
+    }
+
+    void Update()
+    {
+        
+    }
+}
