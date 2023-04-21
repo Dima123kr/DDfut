@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: "C:/Users/\u0414\u0438\u043C\u0430/Documents/GitHub/DDfut/Packages/manifest.json"
+    m_FilePath: C:/Projects/DDfut/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638094007325864608
-    m_Hash: 740272445
+      ticks: 638176937983604516
+    m_Hash: 3357710232
   m_LockFileStatus:
-    m_FilePath: "C:/Users/\u0414\u0438\u043C\u0430/Documents/GitHub/DDfut/Packages/packages-lock.json"
+    m_FilePath: C:/Projects/DDfut/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638094007927777061
-    m_Hash: 4269494185
+      ticks: 638176938526929323
+    m_Hash: 1336552512
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: "C:/Users/\u0414\u0438\u043C\u0430/Documents/GitHub/DDfut/Packages"
-m_EditorVersion: 2022.2.2f1 (c93c5d3acf5b)
+m_ProjectPath: C:/Projects/DDfut/Packages
+m_EditorVersion: 2022.2.15f1 (30d813e1a2a9)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@1.1.1
   testable: 0
   isDirectDependency: 1
   version: 1.1.1
   source: 1
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.ai.navigation@1.1.1"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.ai.navigation@1.1.1
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -50,9 +50,11 @@ m_ResolvedPackages:
     - 1.1.0-pre.1
     - 1.1.0-pre.2
     - 1.1.1
+    - 1.1.3
     compatible:
     - 1.1.1
-    recommended: 1.1.1
+    - 1.1.3
+    recommended: 1.1.3
     deprecated: []
   dependencies:
   - name: com.unity.modules.ai
@@ -87,12 +89,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.collab-proxy@1.17.7
+- packageId: com.unity.collab-proxy@2.0.3
   testable: 0
   isDirectDependency: 1
-  version: 1.17.7
+  version: 2.0.3
   source: 1
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.collab-proxy@1.17.7"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.collab-proxy@2.0.3
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -102,10 +104,9 @@ m_ResolvedPackages:
     url: 
   category: Editor
   type: asset
-  description: The Version Control package gives you the ability to use either Collaborate
-    or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
-    (beta), a Plastic SCM subscription is required. Learn more about how you can
-    get started for free by visiting plasticscm.com.
+  description: The package gives you the ability to use Unity Version Control in
+    the Unity editor. To use Unity Version Control, a subscription is required. Learn
+    more about how you can get started for free by visiting plasticscm.com.
   status: 0
   errors: []
   versions:
@@ -171,37 +172,21 @@ m_ResolvedPackages:
     - 2.0.0-preview.22
     - 2.0.0
     - 2.0.1
+    - 2.0.3
+    - 2.0.4
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.17.7
-    - 2.0.0-preview.6
-    - 2.0.0-preview.8
-    - 2.0.0-preview.15
-    - 2.0.0-preview.17
-    - 2.0.0-preview.20
-    - 2.0.0-preview.21
-    - 2.0.0-preview.22
-    - 2.0.0
-    - 2.0.1
+    - 2.0.3
+    - 2.0.4
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    recommended: 1.17.7
+    recommended: 2.0.4
     deprecated: []
-  dependencies:
-  - name: com.unity.services.core
-    version: 1.0.1
-  resolvedDependencies:
-  - name: com.unity.services.core
-    version: 1.7.0
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
+  dependencies: []
+  resolvedDependencies: []
   keywords:
   - backup
   - cloud
@@ -209,6 +194,7 @@ m_ResolvedPackages:
   - collaborate
   - collaboration
   - control
+  - devops
   - plastic
   - plasticscm
   - source
@@ -226,16 +212,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638036787040000000
-  documentationUrl: 
+  datePublishedTicks: 638158826940000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 1641a631fd39029595decb52bdfb641b32ed194c
+    revision: c189c3bb7a025aa19e1f0ab8851a09a34ff94016
     path: 
   unityLifecycle:
-    version: 1.17.7
+    version: 2.0.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -247,7 +233,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.feature.development@1.0.1"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.feature.development@1.0.1
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -297,13 +283,13 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.17
+    version: 3.0.18
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.performance.profile-analyzer
-    version: 1.1.1
+    version: 1.2.2
   - name: com.unity.testtools.codecoverage
     version: 1.2.2
   - name: com.unity.settings-manager
@@ -335,12 +321,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.17
+- packageId: com.unity.ide.rider@3.0.18
   testable: 0
   isDirectDependency: 1
-  version: 3.0.17
+  version: 3.0.18
   source: 1
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.ide.rider@3.0.17"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.ide.rider@3.0.18
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -391,10 +377,13 @@ m_ResolvedPackages:
     - 3.0.16
     - 3.0.17
     - 3.0.18
+    - 3.0.20
+    - 3.0.21
     compatible:
-    - 3.0.17
     - 3.0.18
-    recommended: 3.0.18
+    - 3.0.20
+    - 3.0.21
+    recommended: 3.0.21
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -413,16 +402,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638058509720000000
+  datePublishedTicks: 638088746970000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: b8990fdcd79dc09dafde1a184f5e4b898fb5f19b
+    revision: b40b39e6834c2915637f431d002d1f3dd8ec9ce5
     path: 
   unityLifecycle:
-    version: 3.0.17
+    version: 3.0.18
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -434,7 +423,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.17
   source: 1
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.ide.visualstudio@2.0.17"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.ide.visualstudio@2.0.17
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -471,9 +460,11 @@ m_ResolvedPackages:
     - 2.0.15
     - 2.0.16
     - 2.0.17
+    - 2.0.18
     compatible:
     - 2.0.17
-    recommended: 2.0.17
+    - 2.0.18
+    recommended: 2.0.18
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -519,7 +510,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.ide.vscode@1.2.5"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -587,7 +578,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.1.33
   source: 1
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.test-framework@1.1.33"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -640,6 +631,7 @@ m_ResolvedPackages:
     - 1.3.1
     - 1.3.2
     - 1.3.3
+    - 1.3.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -650,6 +642,7 @@ m_ResolvedPackages:
     - 1.3.1
     - 1.3.2
     - 1.3.3
+    - 1.3.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -704,7 +697,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.textmeshpro@3.0.6"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -876,12 +869,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.timeline@1.7.2
+- packageId: com.unity.timeline@1.7.4
   testable: 0
   isDirectDependency: 1
-  version: 1.7.2
+  version: 1.7.4
   source: 1
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.timeline@1.7.2"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.timeline@1.7.4
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -971,14 +964,16 @@ m_ResolvedPackages:
     - 1.7.1
     - 1.7.2
     - 1.7.3
+    - 1.7.4
     - 1.8.0
     - 1.8.1
+    - 1.8.2
     compatible:
-    - 1.7.2
-    - 1.7.3
+    - 1.7.4
     - 1.8.0
     - 1.8.1
-    recommended: 1.7.3
+    - 1.8.2
+    recommended: 1.7.4
     deprecated: []
   dependencies:
   - name: com.unity.modules.director
@@ -1014,16 +1009,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638019579250000000
-  documentationUrl: 
+  datePublishedTicks: 638143790870000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 40b193547031a6a97c1fc47f71900f6690c33c6b
+    revision: 1f458a5d3f2bc66f0c1182feeaa9fcea4e8b1496
     path: 
   unityLifecycle:
-    version: 1.7.2
+    version: 1.7.4
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1035,7 +1030,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.ugui@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1104,7 +1099,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.8.0
   source: 1
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.visualscripting@1.8.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.visualscripting@1.8.0
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1198,7 +1193,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.ai@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1253,7 +1248,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.androidjni@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1307,7 +1302,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.animation@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1362,7 +1357,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.assetbundle@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1417,7 +1412,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.audio@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1472,7 +1467,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.cloth@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1531,7 +1526,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.director@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1594,7 +1589,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.imageconversion@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1650,7 +1645,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.imgui@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1705,7 +1700,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.jsonserialize@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1760,7 +1755,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.particlesystem@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1815,7 +1810,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.physics@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1870,7 +1865,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.physics2d@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1925,7 +1920,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.screencapture@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1984,7 +1979,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.terrain@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2039,7 +2034,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.terrainphysics@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2102,7 +2097,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.tilemap@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2160,7 +2155,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.ui@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2215,7 +2210,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.uielements@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2282,7 +2277,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.umbra@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2337,7 +2332,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.unityanalytics@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2400,7 +2395,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.unitywebrequest@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2455,7 +2450,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.unitywebrequestassetbundle@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2518,7 +2513,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.unitywebrequestaudio@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2581,7 +2576,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.unitywebrequesttexture@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2644,7 +2639,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.unitywebrequestwww@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2723,7 +2718,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.vehicles@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2782,7 +2777,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.video@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2849,7 +2844,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.vr@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2918,7 +2913,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.wind@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2973,7 +2968,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.xr@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3040,7 +3035,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.modules.subsystems@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3099,7 +3094,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.ext.nunit@1.0.6"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3166,7 +3161,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.editorcoroutines@1.0.0"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.editorcoroutines@1.0.0
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -3226,12 +3221,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.performance.profile-analyzer@1.1.1
+- packageId: com.unity.performance.profile-analyzer@1.2.2
   testable: 0
   isDirectDependency: 0
-  version: 1.1.1
+  version: 1.2.2
   source: 1
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.performance.profile-analyzer@1.1.1"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -3265,9 +3260,8 @@ m_ResolvedPackages:
     - 1.1.1
     - 1.2.2
     compatible:
-    - 1.1.1
     - 1.2.2
-    recommended: 1.1.1
+    recommended: 1.2.2
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -3282,16 +3276,16 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637705021060000000
-  documentationUrl: 
+  datePublishedTicks: 638108624620000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.performance.profile-analyzer.git
-    revision: 6dcda6aee96901e98a4f01b85589054b9274ba74
+    revision: 2c63f931588caa60a1fef33b1b250b20d952dc58
     path: 
   unityLifecycle:
-    version: 1.1.1
+    version: 1.2.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3303,7 +3297,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.2
   source: 1
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.testtools.codecoverage@1.2.2"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -3349,9 +3343,11 @@ m_ResolvedPackages:
     - 1.2.0
     - 1.2.1
     - 1.2.2
+    - 1.2.3
     compatible:
     - 1.2.2
-    recommended: 1.2.2
+    - 1.2.3
+    recommended: 1.2.3
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -3400,103 +3396,12 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.services.core@1.7.0
-  testable: 0
-  isDirectDependency: 0
-  version: 1.7.0
-  source: 1
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.services.core@1.7.0"
-  assetPath: Packages/com.unity.services.core
-  name: com.unity.services.core
-  displayName: Services Core
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: 'This package defines common components used by multiple Game Service
-    packages.
-
-    These are standardized and aim to unify the overall experience
-    of working with Game Services SDK.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.1
-    - 1.1.0-pre.7
-    - 1.1.0-pre.8
-    - 1.1.0-pre.9
-    - 1.1.0-pre.10
-    - 1.1.0-pre.11
-    - 1.1.0-pre.41
-    - 1.1.0-pre.69
-    - 1.2.0
-    - 1.3.1
-    - 1.3.2
-    - 1.4.0
-    - 1.4.1
-    - 1.4.2
-    - 1.4.3
-    - 1.5.2
-    - 1.6.0
-    - 1.7.0
-    - 1.7.1
-    - 1.8.1
-    compatible:
-    - 1.7.0
-    - 1.7.1
-    - 1.8.1
-    recommended: 1.7.1
-    deprecated: []
-  dependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.unitywebrequest
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 3.0.2
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 638059514260000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
-    revision: 08a8fcaac21b4eebbb92708e367ad3a276b6f5a6
-    path: 
-  unityLifecycle:
-    version: 1.7.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.settings-manager@2.0.1
   testable: 0
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.settings-manager@2.0.1"
+  resolvedPath: C:\Projects\DDfut\Library\PackageCache\com.unity.settings-manager@2.0.1
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -3547,81 +3452,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 2.0.1
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.nuget.newtonsoft-json@3.0.2
-  testable: 0
-  isDirectDependency: 0
-  version: 3.0.2
-  source: 1
-  resolvedPath: "C:\\Users\\\u0414\u0438\u043C\u0430\\Documents\\GitHub\\DDfut\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@3.0.2"
-  assetPath: Packages/com.unity.nuget.newtonsoft-json
-  name: com.unity.nuget.newtonsoft-json
-  displayName: Newtonsoft Json
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: library
-  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
-    synced to version 13.0.1.
-
-
-    This package is used for advanced json serialization
-    and deserialization. Most Unity users will be better suited using the existing
-    json tools built into Unity.
-
-    To avoid assembly clashes, please use this
-    package if you intend to use Newtonsoft Json.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.2
-    - 1.0.0-preview.3
-    - 1.0.0-preview.4
-    - 1.0.1-preview.1
-    - 1.1.2
-    - 2.0.0-preview
-    - 2.0.0-preview.1
-    - 2.0.0-preview.2
-    - 2.0.0
-    - 2.0.1-preview.1
-    - 2.0.2
-    - 3.0.1
-    - 3.0.2
-    compatible:
-    - 3.0.2
-    recommended: 3.0.2
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637846828220000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
-    revision: 8f66870a71ad3f2cdd46330b5c482dfd138ffc64
-    path: 
-  unityLifecycle:
-    version: 3.0.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0

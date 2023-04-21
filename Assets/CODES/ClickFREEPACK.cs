@@ -6,7 +6,7 @@ public class ClickFREEPACK : MonoBehaviour
     public GameObject Camera;
     public void OnMouseDown()
     {
-        Camera.transform.position = Camera.transform.position + Vector3.right * 74.3f + Vector3.down * 8f + Vector3.forward * 5.4f;
+        Camera.transform.position = Camera.transform.position + Vector3.right * 30.5f + Vector3.down * 22f + Vector3.back * 72f;
     }
 
     void Start()
