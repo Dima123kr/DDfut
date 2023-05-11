@@ -8,9 +8,9 @@ public class OpenFreePack : MonoBehaviour
 
     public void Start()
     {
-        BaseOfPlayers Base = GetComponent<BaseOfPlayers>();
-        string[] cards = Base.RandomCards();
-        string[] cardsSPECIAL = {};
+        //BaseOfPlayers Base = GetComponent<BaseOfPlayers>();
+        //string[] cards = Base.RandomCards();
+        //string[] cardsSPECIAL = {};
         // for (int i = 0; i < cards.Length; i++)
         // {
         //     if (Base.myPlayerList.cards[i].tip != "GOLD")
